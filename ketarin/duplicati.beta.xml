@@ -28,7 +28,7 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>https://code.google.com/p/duplicati/wiki/Downloads?tm=2</Url>
-            <StartText> &lt;ul&gt;&lt;li&gt;&lt;a href="http://duplicati.googlecode.com/files/Duplicati%20</StartText>
+            <StartText> &lt;ul&gt;&lt;li&gt;&lt;a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20</StartText>
             <EndText>.msi" rel="nofollow"&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
@@ -45,7 +45,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>https://code.google.com/p/duplicati/wiki/Downloads?tm=2</Url>
-            <TextualContent>"http://duplicati.googlecode.com/files/Duplicati%20{version}.x64.msi"</TextualContent>
+            <TextualContent>"https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20{version}.x64.msi"</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -63,7 +63,7 @@
     <FileHippoId />
     <LastUpdated>2014-01-05T04:33:22.9438274</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>http://duplicati.googlecode.com/files/Duplicati%20{version}.msi</FixedDownloadUrl>
+    <FixedDownloadUrl>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20{version}.msi</FixedDownloadUrl>
     <Name>duplicati.beta</Name>
   </ApplicationJob>
 </Jobs>

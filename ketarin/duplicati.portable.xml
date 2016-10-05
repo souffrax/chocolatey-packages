@@ -3,7 +3,7 @@
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2e9ca062-b493-49fe-852f-1b1fbc66e92f">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>http://duplicati.googlecode.com/files/Duplicati%20{version}.zip</UserNotes>
+    <UserNotes>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20{version}.zip</UserNotes>
     <LastFileSize>8359912</LastFileSize>
     <LastFileDate>2015-10-10T04:58:40.9758518</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>

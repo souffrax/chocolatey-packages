@@ -3,7 +3,7 @@
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a0e33a10-d3aa-4963-be31-2213dfc37e1c">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
+    <UserNotes>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/peerblock/PeerBlock-Setup_v1.1_r518.exe
 https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <LastFileSize>1204540</LastFileSize>
     <LastFileDate>2015-10-10T05:50:48.8558846</LastFileDate>

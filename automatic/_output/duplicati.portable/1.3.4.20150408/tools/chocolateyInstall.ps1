@@ -1,6 +1,6 @@
 # generated vars
 $packageName = 'duplicati.portable'
-$url = 'http://duplicati.googlecode.com/files/Duplicati 1.3.4.zip'
+$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati 1.3.4.zip'
 $checksum = 'f386945f85cc5310f0091ec473d3c3a3fce7ace0'
 
 # static vars

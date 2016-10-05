@@ -65,7 +65,7 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://arduino.googlecode.com/files/arduino-{version}-windows.exe" /></FixedDownloadUrl>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/arduino/arduino-{version}-windows.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="arduinoide" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
@@ -115,7 +115,7 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://arduino.googlecode.com/files/arduino-{version}-windows.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/arduino/arduino-{version}-windows.exe</FixedDownloadUrl>
     <Name>arduinoide</Name>
   </ApplicationJob>
 </Jobs>

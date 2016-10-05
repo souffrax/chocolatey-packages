@@ -31,7 +31,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=Download Duplicati&lt;/h4&gt;).*(http.*?)(?=" imageanchor="1"&gt;&lt;img )</Regex>
             <Url>http://www.duplicati.com/</Url>
-            <StartText>&lt;ul&gt;&lt;li&gt;&lt;a href="http://duplicati.googlecode.com/files/Duplicati%20</StartText>
+            <StartText>&lt;ul&gt;&lt;li&gt;&lt;a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20</StartText>
             <EndText>.msi" rel="nofollow"&gt;</EndText>
             <TextualContent />
             <Name>releasePage</Name>
@@ -63,7 +63,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=&lt;li&gt;&lt;a href=").*(http.*?)(?="&gt;Duplicati\s*{version}.*?32bit, msi)</Regex>
             <Url>{releasePage}</Url>
-            <TextualContent>http://duplicati.googlecode.com/files/Duplicati%20{version}.msi</TextualContent>
+            <TextualContent>https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/duplicati/Duplicati%20{version}.msi</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
