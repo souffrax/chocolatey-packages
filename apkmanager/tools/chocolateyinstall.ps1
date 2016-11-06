@@ -1,0 +1,1 @@
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://github.com/Danesh/ApkManager/archive/master.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
