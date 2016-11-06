@@ -1,1 +1,1 @@
-﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '7669b170dee42db8ee2273775ed7dfb2d173bdba1b849f70d2c7b379290bce13' -ChecksumType 'sha256'
