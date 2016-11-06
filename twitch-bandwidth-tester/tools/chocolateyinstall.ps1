@@ -1,0 +1,1 @@
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://r-1.ch/TwitchTest.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '5c2e6aa80009201bee94791336707d1b769972d29db79465f28e157a7f7ca622' -ChecksumType 'sha256'
