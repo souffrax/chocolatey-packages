@@ -1,0 +1,1 @@
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
