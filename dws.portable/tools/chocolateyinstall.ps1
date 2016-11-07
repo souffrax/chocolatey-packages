@@ -1,1 +1,1 @@
-﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://github.com/Nummer/Destroy-Windows-10-Spying/releases/download/1.6.722/DWS_Lite.exe' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+﻿Get-ChocolateyWebFile "$env:chocolateyPackageName" "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\DWS_Lite.exe" 'https://github.com/Nummer/Destroy-Windows-10-Spying/releases/download/1.6.722/DWS_Lite.exe' -Checksum '0f99eaf92a96c7103a971acfbf6d13cf84f504a5049ee0619bf55bcf89cef53b' -ChecksumType 'sha256'
