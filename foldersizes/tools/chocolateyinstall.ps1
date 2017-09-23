@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/qn' 'https://s3.amazonaws.com/KeyMetricSoft/FolderSizes/fs8-setup.exe' -Checksum '4705855d459a47a7e26e9529ed83866045995090f96b9ffcc76cbec1ab2e86ee' -ChecksumType 'sha256'
