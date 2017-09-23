@@ -1,0 +1,43 @@
+version: 1.0.{build}
+branches:
+  except:
+  - master
+  - gh-pages
+image: Visual Studio 2017
+configuration: Release
+environment:
+  CHOCOLATEY_API_KEY:
+    secure: jDIr9kyOc6mpFlnJtEpKJTE5MxZI/jbN9knPSh8u0SFapBAxPMvbNy7WDsvhC+H7
+  appveyor_rdp_password:
+    secure: 7xOAIdcaLhq8wnf698xPwA==
+  MYGET_API_KEY:
+    secure: Xj1/G205BWukWmwjBWaRfQ48TgyHpYmv+wKT9C8I8GX5cCRygpQTV3SY6Zkv3Tg2
+  TEST_VAR_ONE: test1
+  test_vat_two: test2
+install:
+- ps: >-
+    if ($env:CHOCOLATEY_API_KEY) {choco apikey --key $env:CHOCOLATEY_API_KEY --source https://push.chocolatey.org/}
+    
+    Add-AppxPackage Microsoft.DesktopAppConverter_2.1.1.0_x64__8wekyb3d8bbwe.Appx
+
+    if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci rdp]')) {$blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))}
+nuget:
+  disable_publish_on_pr: true
+build_script:
+- cmd: >-
+    cd /d "%APPVEYOR_BUILD_FOLDER%\%APPVEYOR_REPO_BRANCH%"
+
+    choco pack
+test_script:
+- ps: >-
+    cd "$env:APPVEYOR_BUILD_FOLDER\$env:APPVEYOR_REPO_BRANCH"
+
+    [xml]$nuspec = cat "$env:APPVEYOR_REPO_BRANCH.nuspec"
+
+    choco install $env:APPVEYOR_REPO_BRANCH -s '.;https://chocolatey.org/api/v2/' --version $nuspec.package.metadata.version --pre --no-progress
+
+    choco uninstall $env:APPVEYOR_REPO_BRANCH -y
+artifacts:
+- path: '**\*.nupkg'
+deploy_script:
+- ps: if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci push]')) {choco push $(ls *.nupkg)}
