@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'https://help.kontur.ru/content/components/kontur.toolbox2.exe' -Checksum '2d6fc9c49823644a6422eac59c512700525823a3c57a27d781f91d05da2664e7' -ChecksumType 'sha256'
