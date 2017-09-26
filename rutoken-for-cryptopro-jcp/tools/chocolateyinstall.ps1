@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/s /v"/qb"' 'https://download.rutoken.ru/Rutoken/Support_CryptoPro/JCP/2.6.0.13/rtSup_CryptoProJCP.v.2.06.00.0013.exe' -Checksum 'd695c612995ebdd075ada1c0e3c9e6e2506af55c75b8f47a720bd5b29f135d23' -ChecksumType 'sha256'
