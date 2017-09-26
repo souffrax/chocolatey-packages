@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kontur-plugin</id>
+    <version>3.8.0.180</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kontur-plugin</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Kontur.Plugin (Install)</title>
+    <authors>СКБ Контур</authors>
+    <projectUrl>https://help.kontur.ru/plugin/</projectUrl>
+    <iconUrl>https://kontur.ru/theme/ver-1321485457/common/images/logo_social.png</iconUrl>
+    <copyright>Copyright (c) 1988-2017 СКБ Контур</copyright>
+    <licenseUrl>https://help.kontur.ru/plugin/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.kontur-extern.ru/support/faq/34/587</docsUrl>
+    <bugTrackerUrl>https://kontur.ru/support</bugTrackerUrl>
+    <tags>crypto office digital-signature signature gost cades bookkeeping kontur admin</tags>
+    <summary>Kontur.Plugin is a plugin for using GOST cryptographic functions on Kontur</summary>
+    <description>Kontur.Plugin is a plugin for using GOST cryptographic functions on Kontur, such as single sign on by digital signature certificate</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
