@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'https://help.kontur.ru/content/components/RegOids.exe' -Checksum '2f816eecc5ffb353aad77514ae0a2708dfbb437954ab4b00fe6f83ddc19459a2' -ChecksumType 'sha256'
