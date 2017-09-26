@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cryptopro-ssf</id>
+    <version>1.0.10908.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cryptopro-ssf</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>CryptoPro SSF (Install)</title>
+    <authors>ООО "КРИПТО-ПРО"</authors>
+    <projectUrl>https://www.cryptopro.ru/products/cades/ssf</projectUrl>
+    <iconUrl>https://www.cryptopro.ru/sites/default/files/theme321_logo.png</iconUrl>
+    <copyright>Copyright (c) ООО "КРИПТО-ПРО", 2000-2017</copyright>
+    <licenseUrl>https://www.cryptopro.ru/sites/default/files/products/ssf/1.0.10908.0/cpsapssf.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.cryptopro.ru/sites/default/files/products/ssf/1.0.10908.0/cpsapssf.pdf</docsUrl>
+    <bugTrackerUrl>https://support.cryptopro.ru</bugTrackerUrl>
+    <tags>crypto cryptopro crypto-pro office digital-signature signature gost cades admin</tags>
+    <summary>CryptoPro SSF is a add-in for using GOST cryptographic functions in SAP</summary>
+    <description>CryptoPro SSF is a add-in for using GOST cryptographic functions in SAP</description>
+    <releaseNotes>https://www.cryptopro.ru/sites/default/files/products/ssf/1.0.10908.0/cpsapssf.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
