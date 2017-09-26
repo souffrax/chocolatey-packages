@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://download.rutoken.ru/Rutoken_Plugin/4.0.1.0/Windows/RutokenPlugin.msi' -Checksum 'a94534c4bae42c79b017df3df2de152cf105ee2be5f29ea9589fc19c8d809ada' -ChecksumType 'sha256'
