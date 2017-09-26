@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rutoken-magistra-drivers</id>
+    <version>1.06.00.0035</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/rutoken-magistra-drivers</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Rutoken Magistra Drivers (Install)</title>
+    <authors>Компания «Актив»</authors>
+    <projectUrl>https://www.rutoken.ru/support/download/drivers-for-magistra/</projectUrl>
+    <iconUrl>https://www.rutoken.ru/images/logo.png</iconUrl>
+    <copyright>Copyright 1994-2017 (c) Компания «Актив»</copyright>
+    <licenseUrl>https://www.rutoken.ru/support/download/drivers-for-magistra/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.rutoken.ru/support/manual/</docsUrl>
+    <bugTrackerUrl>https://www.rutoken.ru/support/feedback/</bugTrackerUrl>
+    <tags>crypto office digital-signature signature gost cades bookkeeping rutoken aktiv driver drivers admin</tags>
+    <summary>Rutoken Drivers is a driver package for Rutoken digital signature tokens</summary>
+    <description>Rutoken Drivers is a driver package for Rutoken digital signature tokens, with support of traditional and GOST algorithms</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
