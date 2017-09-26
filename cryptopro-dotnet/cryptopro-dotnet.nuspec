@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cryptopro-dotnet</id>
+    <version>1.0.6397.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cryptopro-dotnet</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>CryptoPro .NET (Install)</title>
+    <authors>ООО "КРИПТО-ПРО"</authors>
+    <projectUrl>https://www.cryptopro.ru/products/net</projectUrl>
+    <iconUrl>https://www.cryptopro.ru/sites/default/files/theme321_logo.png</iconUrl>
+    <copyright>Copyright (c) ООО "КРИПТО-ПРО", 2000-2017</copyright>
+    <licenseUrl>https://www.cryptopro.ru/sites/default/files/products/net/files/1.0.6397.0/Formular.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://cpdn.cryptopro.ru/default.asp?url=content/cpnet/html/08bcd27a-1f1c-4494-a996-37d88776309e.htm</docsUrl>
+    <bugTrackerUrl>https://support.cryptopro.ru</bugTrackerUrl>
+    <tags>crypto cryptopro crypto-pro office digital-signature signature gost cades admin</tags>
+    <summary>CryptoPro PDF is a add-in for using GOST cryptographic functions in PDF software</summary>
+    <description>CryptoPro PDF is a add-in for using GOST cryptographic functions in PDF software</description>
+    <releaseNotes>https://www.cryptopro.ru/sites/default/files/products/net/files/1.0.6397.0/readme.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
