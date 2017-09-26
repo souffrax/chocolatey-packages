@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kontur-extern-webdisc</id>
+    <version>5.2.0.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kontur-extern-webdisc</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Kontur.Extern WebDisc (Install)</title>
+    <authors>ЗАО «ПФ «СКБ Контур»</authors>
+    <projectUrl>https://install.kontur.ru/kekep</projectUrl>
+    <iconUrl>https://install.kontur.ru/content/images/logo-webdisc.gif</iconUrl>
+    <copyright>Copyright (c) 2011-2017 ЗАО «ПФ «СКБ Контур»</copyright>
+    <licenseUrl>https://install.kontur.ru/kekep</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.kontur-extern.ru/support/faq/34/518</docsUrl>
+    <bugTrackerUrl>https://kontur.ru/support</bugTrackerUrl>
+    <tags>crypto office digital-signature signature gost cades bookkeeping kontur admin</tags>
+    <summary>Kontur.WebDisc is a package of tools for using GOST cryptographic functions in Kontur products</summary>
+    <description>Kontur.WebDisc is a package of tools for using GOST cryptographic functions in Kontur products, such as single sign on by digital signature certificate</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

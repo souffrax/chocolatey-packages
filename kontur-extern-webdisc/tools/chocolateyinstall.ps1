@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'http://kontur.tools/help/d/Kontur-Install-KEKEP.exe' -Checksum 'b6114460e84acfacc929cf31aa47182786629faef1358efee4d668fc39239d8d' -ChecksumType 'sha256'
