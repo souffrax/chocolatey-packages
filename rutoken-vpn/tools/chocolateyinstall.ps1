@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'https://rutokenvpn.ru/download/%D0%A0%D1%83%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%20VPN%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82.exe' -Checksum 'b8f0841eb4ed85b639b1238279017797a16fd54eed0b2979b2e6c1e2b04c8d71' -ChecksumType 'sha256'
