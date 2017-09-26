@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rutoken-for-cryptopro-csp</id>
+    <version>2.43.00.0164</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/rutoken-for-cryptopro-csp</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Rutoken for CryptoPro CSP (Install)</title>
+    <authors>Компания «Актив»</authors>
+    <projectUrl>https://www.rutoken.ru/support/download/rutoken-for-cp/</projectUrl>
+    <iconUrl>https://www.rutoken.ru/images/logo.png</iconUrl>
+    <copyright>Copyright 1994-2017 (c) Компания «Актив»</copyright>
+    <licenseUrl>https://www.rutoken.ru/support/download/rutoken-for-cp/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.rutoken.ru/manual/RutokenSupCryptoProCSP.pdf</docsUrl>
+    <bugTrackerUrl>https://www.rutoken.ru/support/feedback/</bugTrackerUrl>
+    <tags>crypto office digital-signature signature gost cades bookkeeping rutoken aktiv plugin admin</tags>
+    <summary>Rutoken for CryptoPro CSP is an CSP add-in for using Rutoken in CSP</summary>
+    <description>Rutoken for CryptoPro CSP an CSP add-in for using Rutoken in CSP for various applications</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
