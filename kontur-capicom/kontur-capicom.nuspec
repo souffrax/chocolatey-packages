@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kontur-capicom</id>
+    <version>2.1.0.2</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kontur-capicom</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Kontur CAPICOM (Install)</title>
+    <authors>Microsoft Corporation, SKB Kontur</authors>
+    <projectUrl>https://www.kontur-extern.ru/support/utilities</projectUrl>
+    <iconUrl>https://kontur.ru/theme/ver-1321485457/common/images/logo_social.png</iconUrl>
+    <copyright>Copyright (c) 1999-2006 Microsoft Corporation, 2014-2016 SKB Kontur</copyright>
+    <licenseUrl>https://www.kontur-extern.ru/support/utilities</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://kontur.ru/support</docsUrl>
+    <tags>kontur diag rutoken digital-signature signature bookkeeping gost cades signing security admin</tags>
+    <summary>Kontur CAPICOM is an add-in for using GOST crypto in Kontur products</summary>
+    <description>Kontur CAPICOM is an add-in for using GOST crypto in Kontur products</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
