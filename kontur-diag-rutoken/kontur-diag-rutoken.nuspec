@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kontur-diag-rutoken</id>
+    <version>1.0.3.1</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kontur-diag-rutoken</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Kontur.Diag Rutoken (Install)</title>
+    <authors>Компания "Актив", ЗАО «ПФ «СКБ Контур»</authors>
+    <projectUrl>https://install.kontur.ru</projectUrl>
+    <iconUrl>https://install.kontur.ru/content/images/logo-webdisc.gif</iconUrl>
+    <copyright>Copyright (c) 2003-2016 Компания "Актив", 2012-2016 ЗАО «ПФ «СКБ Контур»</copyright>
+    <licenseUrl>https://install.kontur.ru</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://kontur.ru/support</docsUrl>
+    <tags>kontur diag rutoken digital-signature signature bookkeeping gost cades signing security admin</tags>
+    <summary>Kontur.Diag Rutoken is an add-in for diagnosting Rutoken in Kontur.Diag</summary>
+    <description>Kontur.Diag Rutoken is an add-in for diagnosting Rutoken in Kontur.Diag</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

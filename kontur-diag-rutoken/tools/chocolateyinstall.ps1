@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'https://help.kontur.ru/content/components/rtCOMLite.exe' -Checksum '348f010fa5a6c89cce724b32de934b14d46c603fdad5104cce4dafa598be9e80' -ChecksumType 'sha256'
