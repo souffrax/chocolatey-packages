@@ -1,1 +1,1 @@
-﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://squid.acmeconsulting.it/download/squid-2.6.STABLE23-bin.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '470816803c75ecd582f11e7daf58a43b3fe92bd7b2e41d3a695aacfc53b39c07' -ChecksumType 'sha256'
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://squid.acmeconsulting.it/download/squid-2.6.STABLE23-bin-DELAYP.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '5a5e6b643193b5b5aa0f4ea5382d131a27e68574f42cd5626b4857cc79a473c2' -ChecksumType 'sha256'
