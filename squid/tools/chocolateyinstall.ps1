@@ -1,1 +1,1 @@
-﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'http://packages.diladele.com/squid/3.5.27/squid.msi' -Checksum 'a5bbc48e3b2b274a6625cd29b605b21b1b9241b319d3d1423fcc6baf9ebcaa66' -ChecksumType 'sha256'
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://squid.acmeconsulting.it/download/squid-2.7.STABLE8-bin.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '6e28e6ae4b2e14fe2ba0e6b358a448813737dcc6e8032d6448b8526473a9e911' -ChecksumType 'sha256'
