@@ -1,1 +1,1 @@
-﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.cryptopro.ru/sites/default/files/products/office-signature/2.0.11980/XMLDSigAddIn-win32.msi' -Checksum '424e90fe253ccd2a929c23ebdffcb42b0b944723a94e4b1959df9713eac704f7' -ChecksumType 'sha256'
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.cryptopro.ru/sites/default/files/products/office-signature/1.0.0870/XMLDSigAddIn-win32.msi' -Checksum '9fd463a50c53ea61dcf39d7308b1099fba45d09a233eb59adbbd100e771f8367' -ChecksumType 'sha256'

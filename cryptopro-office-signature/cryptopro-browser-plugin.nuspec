@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cryptopro-office-signature</id>
-    <version>2.0.11980</version>
+    <version>1.0.0870</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cryptopro-office-signature</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>CryptoPro Office Signature (Install)</title>
@@ -17,7 +17,7 @@
     <tags>crypto cryptopro crypto-pro office digital-signature signature gost cades admin</tags>
     <summary>CryptoPro Browser Plugin is a add-in for using GOST cryptographic functions in Office</summary>
     <description>CryptoPro Browser Plugin is a add-in for using GOST cryptographic functions in Office.
-Compatible with Office 2007/2010/2013/2016 and CryptoPro CSP 2.0 and higher</description>
+Compatible with Office 2007/2010/2013 and CryptoPro CSP 2.0 and higher</description>
     <releaseNotes>https://www.cryptopro.ru/products/cades/plugin/</releaseNotes>
   </metadata>
   <files>
