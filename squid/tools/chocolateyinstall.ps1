@@ -1,1 +1,1 @@
-﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://squid.acmeconsulting.it/download/squid-2.7.STABLE8-bin-SSL.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '73127b9ee9516053d79a91c89178f32476e78f95155cabb78162025aaa297637' -ChecksumType 'sha256'
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://squid.acmeconsulting.it/download/squid-2.7.STABLE7-bin.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '54fd93bd81393e9292ee1926acbb7e31ea5329ecb7344a35ba05f79f3af76d64' -ChecksumType 'sha256'
