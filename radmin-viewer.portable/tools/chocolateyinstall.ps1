@@ -1,0 +1,1 @@
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://www.radmin.com/download/Radmin_Viewer_3.5.1_Port.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum 'ef74712bcc2b26e403c939f0f5d551222520735f9225df333824beca042460a0' -ChecksumType 'sha256'
