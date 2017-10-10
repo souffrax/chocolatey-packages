@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.radmin.com/download/Radmin_Viewer_3.5.1_EN.msi' -Checksum '80a00b73a9d3159083abe3672194db1527064535a3013a9a15d18862d22c24a9' -ChecksumType 'sha256'
