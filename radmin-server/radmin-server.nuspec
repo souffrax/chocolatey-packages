@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>radmin-server</id>
-    <version>3.5.1</version>
+    <version>3.5.1-RU</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/radmin-server</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Radmin Server (Install)</title>

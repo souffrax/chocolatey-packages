@@ -1,1 +1,1 @@
-﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.radmin.com/download/rserv351.msi' -Checksum '1a89747d65dc4b6199e37a08fe75d4ca39fd955f5a386051a592928d1107eff0' -ChecksumType 'sha256'
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.radmin.ru/download/Radmin_Server_3.5.1_RU.msi' -Checksum '5eb5bc1a2c779602a3606a91245a52201047ae3c5e61efd38df16e40850c1d15' -ChecksumType 'sha256'
