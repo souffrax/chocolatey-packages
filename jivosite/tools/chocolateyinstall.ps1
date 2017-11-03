@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://s3-eu-west-1.amazonaws.com/jivo-userdata/stable/jivosite.msi' -Checksum '9b73c54d61e6e16d8bd6bb55a52a0228346bc31e4e89080c2351f04e2f6ec02f' -ChecksumType 'sha256'
