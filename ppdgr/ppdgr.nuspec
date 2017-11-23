@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ppdgr</id>
+    <version>1.4.8</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ppdgr</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Программа подготовки документов для государственной регистрации (Install)</title>
+    <authors>АО "ГНИВЦ"</authors>
+    <projectUrl>https://www.gnivc.ru/software/software_ul_fl/registration/</projectUrl>
+    <iconUrl>https://www.nalog.ru/css/ul/i/logo.png</iconUrl>
+    <copyright>Copyright (c) 2016-2018 АО "ГНИВЦ"</copyright>
+    <licenseUrl>https://www.nalog.ru/rn77/copyright/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/install.doc</docsUrl>
+    <bugTrackerUrl>https://www.gnivc.ru/feedback/</bugTrackerUrl>
+    <tags>admin notsilent ppdgr pfdgr government taxes</tags>
+    <summary>Программа «ППДГР» предназначена для автоматизированной подготовки документов, используемых при государственной регистрации в Российской Федерации</summary>
+    <description>Программа «ППДГР» предназначена для автоматизированной подготовки документов, используемых при государственной регистрации, а также формирование контейнера для подачи заявления о государственной регистрации в электронном виде.
+
+Общие положения:
+
+Программа «ППДГР» заменила программу «ПФДГР».
+</description>
+    <releaseNotes>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/readme.doc</releaseNotes>
+    <dependencies>
+      <dependency id="pdf417" version="3.2.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
