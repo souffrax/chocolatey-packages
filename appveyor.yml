@@ -1,0 +1,21 @@
+version: 1.0.{build}
+branches:
+  except:
+  - master
+configuration: Release
+build_script:
+- cmd: >-
+    cd /d "%APPVEYOR_BUILD_FOLDER%\%APPVEYOR_REPO_BRANCH%"
+
+    choco pack
+test_script:
+- cmd: >-
+    cd /d "%APPVEYOR_BUILD_FOLDER%\%APPVEYOR_REPO_BRANCH%"
+
+    choco install %APPVEYOR_REPO_BRANCH% -s .
+    
+    cat %USERPROFILE%\test.txt
+
+    choco uninstall %APPVEYOR_REPO_BRANCH% -y
+artifacts:
+- path: '**\*.nupkg'
