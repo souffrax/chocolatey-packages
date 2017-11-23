@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lcsignplugin</id>
+    <version>0.1.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/lcsignplugin</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>LCSignPlugin</title>
+    <authors>ООО "ЛИССИ-Софт"</authors>
+    <projectUrl>http://soft.lissi.ru/ls_product/crypto-web/nss_based_plugin/</projectUrl>
+    <iconUrl>http://soft.lissi.ru/i/lissi_soft.png</iconUrl>
+    <copyright>Copyright (c) 2002-2017. ООО "ЛИССИ-Софт"</copyright>
+    <licenseUrl>http://soft.lissi.ru/templates/license_agreement.tmpl.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://soft.lissi.ru/ls_product/crypto-web/nss_plugin_examples_eng/</docsUrl>
+    <tags>lcsignplugin plugin browser browser-plugin crypto cryptography crypro-plugin lissi lissi-soft crypto-web gost</tags>
+    <summary>LCSignPlugin is a web plugin, intended to provide cryptographic functions to web applications with GOST</summary>
+    <description>LCSignPlugin is a web plugin, intended to provide cryptographic functions to web applications, with support of GOST crypto ciphers. Example of such web application is «Crypto-Web»</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
