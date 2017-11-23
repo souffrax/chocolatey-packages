@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>3g-modem-mode-switcher</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/3g-modem-mode-switcher</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>3G Modem Mode Switcher (Install)</title>
+    <authors>___</authors>
+    <projectUrl>http://a.b</projectUrl>
+    <iconUrl>http://a.b</iconUrl>
+    <copyright>Copyright (c) 2017</copyright>
+    <licenseUrl>http://a.b</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://a.b</projectSourceUrl>
+    <docsUrl>http://a.b</docsUrl>
+    <mailingListUrl>http://a.b</mailingListUrl>
+    <bugTrackerUrl>http://a.b</bugTrackerUrl>
+    <tags>admin notsilent</tags>
+    <summary></summary>
+    <description>Программа переключения режимов 3G-модемов ZTE и Huawei для обеспечения лучшей совместимости с интернет-центрами серии ZyXEL Keenetic.</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
