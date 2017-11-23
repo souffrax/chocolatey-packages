@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>docash-vega-firmware</id>
+    <version>29.20171109</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/docash-vega-firmware</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>DoCash Vega Firmware</title>
+    <authors>DoCash</authors>
+    <projectUrl>http://www.docash.ru/ru/node/vega</projectUrl>
+    <iconUrl>http://www.docash.de/image/logo.gif</iconUrl>
+    <copyright>Copyright © "DoCash" 2011-2018</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.docash.ru/data/file/02.2016.%20DoCash%20Vega.%20%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E.PDF</docsUrl>
+    <bugTrackerUrl>http://www.docash.de/en/support</bugTrackerUrl>
+    <tags>admin docash vega docash-vega firmware</tags>
+    <summary>This package contains DoCash Vega counterfeit detector firmware</summary>
+    <description>This package contains DoCash Vega counterfeit detector firmware</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
