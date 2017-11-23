@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hsm-usb-serial-driver</id>
+    <version>3.5.9</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hsm-usb-serial-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Honeywell Scanning and Mobility (HSM) USB Serial Driver (Install)</title>
+    <authors>Honeywell International Inc.</authors>
+    <projectUrl>https://aidc.honeywell.com/en-US/Pages/Product.aspx?category=hand-held-barcode-scanner&amp;cat=HSM&amp;pid=1200g</projectUrl>
+    <iconUrl>https://aidc.honeywell.com/PublishingImages/CompanyLogo_Small.png</iconUrl>
+    <copyright>Copyright (c) 2018 Honeywell International Inc.</copyright>
+    <licenseUrl>https://aidc.honeywell.com/CatalogDocuments/honeywell-eula-including-open-source-2012.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://aidc.honeywell.com/CatalogDocuments/VG1200-UG.pdf</docsUrl>
+    <bugTrackerUrl>https://support.honeywellaidc.com</bugTrackerUrl>
+    <tags>honeywell-scanning-mobility hsm scanner barcode barcode-scanner driver com vcom admin</tags>
+    <summary>The Honeywell Scanning &amp; Mobility (HSM) Windows USB Serial Driver connects an HSM scanner through a virtual COM port</summary>
+    <description>The Honeywell Scanning &amp; Mobility (HSM) Windows WHQL-certified USB Serial Driver connects an HSM scanner through a virtual COM port to a Microsoft Windows operating system and applications. See release notes for list of supported devices and operating systems.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
