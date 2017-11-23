@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aspeed-graphics-driver</id>
+    <version>1.05</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/aspeed-graphics-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>ASPEED Graphics Windows WHQL Driver (Install)</title>
+    <authors>ASPEED Technology Inc.</authors>
+    <projectUrl>https://www.aspeedtech.com/support.php?fPath=24</projectUrl>
+    <iconUrl>https://www.aspeedtech.com/templates/images/index_List_img03.png</iconUrl>
+    <copyright>Copyright (c) 2011 ASPEED Technology Inc.</copyright>
+    <licenseUrl>https://www.aspeedtech.com/footer_article.php?a=LN</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.aspeedtech.com/login2.php</docsUrl>
+    <bugTrackerUrl>https://www.aspeedtech.com/technical_support.php</bugTrackerUrl>
+    <tags>admin aspeed graphics windows driver server drivers videocard integrated onboard motherboard</tags>
+    <summary>ASPEED Graphics Windows WHQL Driver is a driver for ASPEED Graphics</summary>
+    <description>ASPEED Graphics Windows WHQL Driver is a driver for ASPEED Graphics</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
