@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>d-link-network-assistant</id>
+    <version>2.0.2.4</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/d-link-network-assistant</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>D-Link Network Assistant (Install)</title>
+    <authors>D-Link Systems, Inc.</authors>
+    <projectUrl>ftp://ftp2.dlink.com/SOFTWARE/D-LINK_NETWORK_ASSISTANT/DNA_USER_GUIDE_1.20_EN.PDF</projectUrl>
+    <iconUrl>http://support.dlink.com/themes/dca/image/logo2.png</iconUrl>
+    <copyright>Copyright (c) 2018 D-Link Systems, Inc.</copyright>
+    <licenseUrl>http://support.dlink.com/Terms.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>ftp://ftp2.dlink.com/SOFTWARE/D-LINK_NETWORK_ASSISTANT/DNA_USER_GUIDE_1.20_EN.PDF</docsUrl>
+    <bugTrackerUrl>http://support.dlink.com/search.aspx?m=DGS-1100-08</bugTrackerUrl>
+    <tags>d-link network assistant dna dlink managed switch admin</tags>
+    <summary>The D-Link Network Assistant (DNA) is a program that allows administrators to quickly configure all D-Link
+smart switches</summary>
+    <description>The D-Link Network Assistant (DNA) is a program that allows administrators to quickly discover all D-Link
+smart switches and D-Link Discover Protocol (DDP) supported devices that are in the same subnet as the
+DNA. It also collects traps and log messages, and provides quick access to basic configuration of the switch.
+This tool is only for computers running 32/64-bit Windows 7/Vista/XP/2000.</description>
+    <releaseNotes>ftp://ftp2.dlink.com/SOFTWARE/D-LINK_NETWORK_ASSISTANT/DNA_UTILITY_RELEASENOTES_2.0.2.4_EN_WW.PDF</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
