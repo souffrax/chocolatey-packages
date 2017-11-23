@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>yota-jingle-update-utility</id>
+    <version>2.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/yota-jingle-update-utility</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Yota Jingle Update Utility (Install)</title>
+    <authors>___</authors>
+    <projectUrl>http://a.b</projectUrl>
+    <iconUrl>http://a.b</iconUrl>
+    <copyright>Copyright (c) 2017</copyright>
+    <licenseUrl>http://a.b</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://a.b</projectSourceUrl>
+    <docsUrl>http://a.b</docsUrl>
+    <mailingListUrl>http://a.b</mailingListUrl>
+    <bugTrackerUrl>http://a.b</bugTrackerUrl>
+    <tags>admin notsilent</tags>
+    <summary></summary>
+    <description>Программа обновления модема Yota Jingle для работы с интернет-центрами ZyXEL Keenetic.
+Утилита производит обновление модемов Yota Jingle для совместимости с интернет-центрами серии ZyXEL Keenetic c микропрограммой второго поколения NDMS v2.00. Интернет-центры для поддержки Yota Jingle при этом должны иметь микропрограмму версии не ниже 2.00(BFW.0)D0 и 2.00(BFO.0)D0 соответственно. На работоспособность в компьютерах обновление никак не влияет.</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
