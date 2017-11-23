@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tuxboot</id>
+    <version>0.8.3</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/tuxboot</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Tuxboot</title>
+    <authors>Thomas Tsai, Steven Shiau, Ceasar Sun, Jazz Wang</authors>
+    <projectUrl>https://tuxboot.org</projectUrl>
+    <iconUrl>https://tuxboot.org/images/Tuxboot.png</iconUrl>
+    <copyright>Copyright (c) 2010-2018 Thomas Tsai, Steven Shiau, Ceasar Sun, Jazz Wang</copyright>
+    <licenseUrl>https://sourceforge.net/p/tuxboot/git/ci/master/tree/README.TXT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/tuxboot/git/</projectSourceUrl>
+    <docsUrl>https://tuxboot.org/installation/</docsUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/tuxboot/tickets/</bugTrackerUrl>
+    <tags>tuxboot clonezilla drbl gparted tux2live unetbootin installer</tags>
+    <summary>Tuxboot is a modified UNetbootin for easy installing Clonezilla live, DRBL live, GParted live and Tux2live</summary>
+    <description>Tuxboot helps you to create a bootable Live USB drive for Clonezilla live, DRBL live, GParted live and Tux2live. It is modified from UNetbootin and runs on both MS Windows and GNU/Linux. You can choose to download the latest version of Clonezilla live, DRBL live, or GParted live ISO/zip file then create the live USB. Features:
+Support Clonezilla live, DRBL live, GParted live and Tux2live. Tuxboot uses the syslinux in the ISO/zip file to make your USB drive bootable, so it is compatible with the same version of syslinux boot menu in the ISO/zip file.
+Auto find the latest version.
+Download an ISO file and build bootable USB flash drive on the fly.</description>
+    <releaseNotes>https://sourceforge.net/p/tuxboot/git/ci/master/tree/ChangeLog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
