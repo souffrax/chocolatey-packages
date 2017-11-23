@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>redfox2in1</id>
+    <version>2.39</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/redfox2in1</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Redfox2in1</title>
+    <authors>ООО "ЛИССИ-Софт"</authors>
+    <projectUrl>http://soft.lissi.ru/solution/seamonkey/</projectUrl>
+    <iconUrl>http://soft.lissi.ru/i/lissi_soft.png</iconUrl>
+    <copyright>Copyright (c) 2002-2017. ООО "ЛИССИ-Софт"</copyright>
+    <licenseUrl>http://soft.lissi.ru/templates/license_agreement.tmpl.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://soft.lissi.ru/solution/mozilla/</docsUrl>
+    <tags>lissi-soft internet-suite lissi soft internet suite seamonkey browser email email-client address-book address book irc-client irc chatzilla html-editor html editor dom-inspector dom inspector javascript-debugger javascript js debugger gost</tags>
+    <summary>Redfox2in1 is an Mozilla Firefox fork with GOST cryptography</summary>
+    <description>Redfox2in1 is an Mozilla SeaMonkey fork with GOST cryptography</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
