@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>renesas-usb-3-0-driver</id>
+    <version>2.1.28.1</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/renesas-usb-3-0-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Renesas Electronics* USB 3.0 Driver for Desktop Boards (Install)</title>
+    <authors>Intel Corporation</authors>
+    <projectUrl>https://downloadcenter.intel.com/download/19880/Renesas-Electronics-USB-3-0-Driver-for-Desktop-Boards</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg</iconUrl>
+    <copyright>Copyright (c) 2018 Intel Corporation</copyright>
+    <licenseUrl>https://www.intel.com/content/www/us/en/legal/terms-of-use.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://downloadcenter.intel.com/download/19880/Renesas-Electronics-USB-3-0-Driver-for-Desktop-Boards</docsUrl>
+    <bugTrackerUrl>https://www.intel.com/content/www/us/en/support/contact-support.html</bugTrackerUrl>
+    <tags>renesas usb driver renesas-electronics nec usb30 intel chipset admin</tags>
+    <summary>This download record provides the Renesas Electronics USB 3.0 driver for Intel® Desktop Boards</summary>
+    <description>This download record provides the Renesas Electronics USB 3.0 driver for Intel® Desktop Boards.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
