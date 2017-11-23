@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cryptcp</id>
+    <version>5.0.10804</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cryptcp</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>cryptcp</title>
+    <authors>ООО "КРИПТО-ПРО"</authors>
+    <projectUrl>https://www.cryptopro.ru/products/other/cryptcp</projectUrl>
+    <iconUrl>https://www.cryptopro.ru/sites/default/files/theme321_logo.png</iconUrl>
+    <copyright>Copyright (c) ООО "КРИПТО-ПРО", 2000-2017</copyright>
+    <licenseUrl>https://www.cryptopro.ru/sites/default/files/products/cryptcp/licence.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.cryptopro.ru/sites/default/files/products/cryptcp/cryptcp_5.0.x.pdf</docsUrl>
+    <bugTrackerUrl>https://support.cryptopro.ru/</bugTrackerUrl>
+    <tags>cryptopro crypto crypto-pro csp csp-request encryption signing hash hashing</tags>
+    <summary>Command line application for creating CSP requests, encrypting and decrypting files, signing files using public key cryptography, creating file hashes</summary>
+    <description>Command line application for creating CSP requests, encrypting and decrypting files, signing files using public key cryptography, creating file hashes</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
