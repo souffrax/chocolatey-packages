@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>logitech-webcam-software</id>
+    <version>2.80.853.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/logitech-webcam-software</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Logitech Webcam Software (Install)</title>
+    <authors>Logitech</authors>
+    <projectUrl>https://support.logitech.com/downloads</projectUrl>
+	<iconUrl>https://www.logitech.com/images/logitech-logo.png</iconUrl>
+    <copyright>Copyright (c) 2018 Logitech</copyright>
+    <licenseUrl>https://www.logitech.com/footer/terms-of-use</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.logitech.com/downloads</docsUrl>
+    <bugTrackerUrl>https://support.logitech.com/contact-support</bugTrackerUrl>
+    <tags>logitech webcam webcam-software logitech-webcam photo photos video videos admin</tags>
+    <summary>Capture photos and videos, upload to Facebook with one-click, adjust camera settings, and more.</summary>
+    <description>Logitech Webcam Software lets you capture your own photos and videos (720p/1080p mode with some cameras), adjust your camera settings, activate motion detection, and use face-tracking with your preferred video-calling software.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
