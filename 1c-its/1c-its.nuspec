@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>1c-its</id>
+    <version>8.1</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/1c-its</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>1C:ITS</title>
+    <authors>ООО «1С»</authors>
+    <projectUrl>https://its.1c.ru/db/metod8dev/browse/13/-1/2441/2483</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/galeksandrp/chocolatey-packages/1c-its/icons/1c-its.png</iconUrl>
+    <copyright>Copyright (c) 2018 ООО «1С»</copyright>
+    <licenseUrl>https://its.1c.ru/terms_of_use/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://its.1c.ru/db/metod8dev/browse/13/-1/2441/2483</docsUrl>
+    <bugTrackerUrl>https://1c.ru/rus/support/hline.htm</bugTrackerUrl>
+    <tags>1c its 1c-its epf erf component external-component extension</tags>
+    <summary>Set of 1C ERP freeware extensions intended for ease technical support of ERP</summary>
+    <description>1C:ITS (Informational-Technical Support) is a official 1C ERP support service. This service, among other things, provides set of 1C ERP freeware extensions intended to ease technical support of ERP.
+
+Native name | International (file) name
+--- | ---
+[Консоль кластера серверов][ClusterConsole] | ClusterConsole
+[Консоль заданий][JobsConsole] | JobsConsole
+[Настройка технологического журнала][TechnologicalLogSetup] | TechnologicalLogSetup
+[Конвертация внешних обработок][ExternalDataProcessorConverter] | ExternalDataProcessorConverter
+[Замена вызовов общих модулей][CommonModulesCalls] | CommonModulesCalls
+[Замена английских термов][EnglishTermsReplacementTool] | EnglishTermsReplacementTool
+[Внешний отчет "Продажи" для типового решения Управление торговлей][TMSales] | TMSales
+[Консоль отчетов][ReportConsole] | ReportConsole
+[Консоль системы компоновки данных][DCSConsole] | DCSConsole
+[Полнотекстовый поиск в данных][FullTextSearch] | FullTextSearch
+[Консоль анализа журнала регистрации][EventLogConsole] | EventLogConsole
+[Свертка информационной базы][BaseTrimming] | BaseTrimming
+[Выгрузка данных в реляционные структуры][UploadToRelationalStructures] | UploadToRelationalStructures
+[Загрузка данных из табличного документа][UploadFromTableDocument] | UploadFromTableDocument
+[Изменение конфиденциальной информации][UpdatePrivateInformation] | UpdatePrivateInformation
+[Консоль запросов][RequestConsole] | RequestConsole
+[Поиск и замена значений][SearchAndChange] | SearchAndChange
+[Раскрашивание кода][CodeColoring] | CodeColoring
+[Удаление помеченных объектов][DeleteMarkedObjects] | DeleteMarkedObjects
+[Универсальные подбор и обработка объектов][UniversalSelection] | UniversalSelection
+[Форматирование текста][TextFormatting] | TextFormatting
+
+[ClusterConsole]: https://its.1c.ru/db/metod8dev/content/1499/hdoc
+[JobsConsole]: https://its.1c.ru/db/metod8dev/content/1500/hdoc
+[TechnologicalLogSetup]: https://its.1c.ru/db/metod8dev/content/1501/hdoc
+[ExternalDataProcessorConverter]: https://its.1c.ru/db/metod8dev/content/1503/hdoc
+[CommonModulesCalls]: https://its.1c.ru/db/metod8dev/content/1504/hdoc
+[EnglishTermsReplacementTool]: https://its.1c.ru/db/metod8dev/content/1505/hdoc
+[TMSales]: https://its.1c.ru/db/metod8dev/content/1506/hdoc
+[ReportConsole]: https://its.1c.ru/db/metod8dev/content/1507/hdoc
+[DCSConsole]: https://its.1c.ru/db/metod8dev/content/3058/hdoc
+[FullTextSearch]: https://its.1c.ru/db/metod8dev/content/1510/hdoc
+[EventLogConsole]: https://its.1c.ru/db/metod8dev/content/1580/hdoc
+[BaseTrimming]: https://its.1c.ru/db/metod8dev/content/1596/hdoc
+[UploadToRelationalStructures]: https://its.1c.ru/db/metod8dev/content/1597/hdoc
+[UploadFromTableDocument]: https://its.1c.ru/db/metod8dev/content/1643/hdoc
+[UpdatePrivateInformation]: https://its.1c.ru/db/metod8dev/content/1644/hdoc
+[RequestConsole]: https://its.1c.ru/db/metod8dev/content/1645/hdoc
+[SearchAndChange]: https://its.1c.ru/db/metod8dev/content/1646/hdoc
+[CodeColoring]: https://its.1c.ru/db/metod8dev/content/1647/hdoc
+[DeleteMarkedObjects]: https://its.1c.ru/db/metod8dev/content/1648/hdoc
+[UniversalSelection]: https://its.1c.ru/db/metod8dev/content/1649/hdoc
+[TextFormatting]: https://its.1c.ru/db/metod8dev/content/1650/hdoc
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
