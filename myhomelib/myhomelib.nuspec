@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>myhomelib</id>
+    <version>2.2.0.822</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/myhomelib</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>MyHomeLib (Install)</title>
+    <authors>MyHomeLib</authors>
+    <projectUrl>http://home-lib.net</projectUrl>
+    <iconUrl>http://home-lib.net/application/maxsite/templates/my_lithium/images/logos/home-lib.png</iconUrl>
+    <copyright>Copyright (c) 2009-2018 MyHomeLib</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://app.assembla.com/spaces/myhomelib/subversion/source</projectSourceUrl>
+    <docsUrl>http://home-lib.net/faq</docsUrl>
+    <bugTrackerUrl>http://forum.home-lib.net</bugTrackerUrl>
+    <tags>myhomelib homelib my-homelib my-home-lib home-lib calibre book books admin</tags>
+    <summary>MyHomeLib is a software for managing collections of ebooks</summary>
+    <description>MyHomeLib is a software for managing collections of ebooks in different formats.</description>
+    <releaseNotes>http://home-lib.net/page/obnovlenie-220</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
