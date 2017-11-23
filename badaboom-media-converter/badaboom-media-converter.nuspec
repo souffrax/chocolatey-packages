@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>badaboom-media-converter</id>
+    <version>2.0.0.128</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/badaboom-media-converter</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Badaboom Media Converter (Install)</title>
+    <authors>Elemental Technologies Inc.</authors>
+    <projectUrl>https://www.geforce.com/games-applications/pc-applications/badaboom-media-converter</projectUrl>
+    <iconUrl>https://www.geforce.com/sites/default/files-world/boxshot/pc-applications/BoxShot-badaboom-media-converter.jpg</iconUrl>
+    <copyright>Copyright (c) 2011 Elemental Technologies Inc.</copyright>
+    <licenseUrl>https://www.nvidia.com/en-us/about-nvidia/legal-info/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.geforce.com/games-applications/pc-applications/badaboom-media-converter/description</docsUrl>
+    <bugTrackerUrl>https://www.geforce.com/support</bugTrackerUrl>
+    <tags>elemental technologies badaboom media converter nvidia cuda admin</tags>
+    <summary>Optimized for NVIDIA CUDA, Elemental Technologies Badaboom Media Converter allows aspiring filmmakers to transcode video and movies quickly and efficiently.</summary>
+    <description>Badaboom is a blazingly fast media converter that makes it easy to format video files for a variety of devices, including the iPhone, iPad, Android phones and PSP, in a process called transcoding. In what used to take several hours, Badaboom converts feature-length movies to mobile profiles in a matter of minutes while still maintaining high video quality. By harnessing the power of NVIDIA CUDA-enabled GPUs, Badaboom offloads the CPU to allow users to continue browsing the Internet or checking email without decreased system performance, making transcoding high-quality video fast and easy. Badaboom is now hardware-accelerated with the latest NVIDIA GPUs. It is also functional in CPU-only mode for systems that don’t have an NVIDIA GPU.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
