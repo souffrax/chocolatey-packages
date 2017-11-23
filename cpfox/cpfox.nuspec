@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cpfox</id>
+    <version>45.1.2</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cpfox</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>CryptoPro Fox (Install)</title>
+    <authors>ООО "КРИПТО-ПРО"</authors>
+    <projectUrl>https://www.cryptopro.ru/products/cpfox</projectUrl>
+    <iconUrl>https://www.cryptopro.ru/sites/default/files/theme321_logo.png</iconUrl>
+    <copyright>Copyright (c) ООО "КРИПТО-ПРО", 2000-2017</copyright>
+    <licenseUrl>https://www.cryptopro.ru/sites/default/files/docs/law/Licence_agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <bugTrackerUrl>https://support.cryptopro.ru/</bugTrackerUrl>
+    <tags>cryptopro crypto crypto-pro fox firefox browser gost admin</tags>
+    <summary>CryptoPro Fox is a web browser based on Mozilla FireFox, with support of encrypted connections (Transport Layer Security, TLS) using GOST cryptography algoritms</summary>
+    <description>CryptoPro Fox is a web browser based on Mozilla FireFox, with support of encrypted connections (Transport Layer Security, TLS) using GOST cryptography algoritms.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
