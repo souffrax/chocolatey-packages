@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>oscar-mouse-editor</id>
+    <version>12.08.17</version>
+    <title>Oscar Mouse Editor (Install)</title>
+    <authors>X7</authors>
+    <owners>galeksandrp</owners>
+    <licenseUrl>https://choosealicense.com/no-permission/</licenseUrl>
+    <projectUrl>http://www.x7.cn/oscaren/</projectUrl>
+    <iconUrl>http://www.x7.cn/en/images/main-right-bg.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>For an ordinary computer mouse, the moue itself is restricted by its default settings, even for those programmable ones, you are still bounded by its limited applications. And now, A4Tech’s X7 Oscar Editor, you may program the preferable scripts to upgrade your mouse effortlessly and share with others. It breaks through this barrier, users are able to establish homemade programs by using simple logic commands (such as “Loop”, “If”, “Equal to”, “Interval Repeat”, “Jump”…etc.) or by using command combinations (like “Change the Time Delay between commands”, “Control cursor absolute/relative displacements”, “Mouse simulation”, “Keyboard simulation”, “Record the keyboard &amp; mouse continuous actions”…etc.). Simplicity, high effectiveness, and the overwhelming power of Oscar will bring you the unprecedented experience and dominate the play!
+
+Oscar Mouse Editor is not only activate the mouse functionality, but also simplifying the use of a mouse. It is another revolutionary technology milestone in the mouse and keyboard history.</description>
+    <summary>Oscar Mouse Editor is a configuration software for Oscar mouses</summary>
+    <copyright>Copyright (c) 2014 X7</copyright>
+    <tags>oscar mouse editor mouse-editor a4 a4tech x7 admin</tags>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/oscar-mouse-editor</packageSourceUrl>
+    <docsUrl>http://www.x7.cn/oscaren/</docsUrl>
+    <bugTrackerUrl>http://www.x7.cn/oscaren/</bugTrackerUrl>
+  </metadata>
+</package>
