@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>smart-console-utility</id>
+    <version>3.00.10</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/smart-console-utility</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Smart Console Utility (Install)</title>
+    <authors>D-Link Systems, Inc.</authors>
+    <projectUrl>http://support.dlink.com/mobile/main/mfaq.aspx?f=G%2FYozLdDGCvY1s4OIjhFwA%3D%3D</projectUrl>
+    <iconUrl>http://support.dlink.com/themes/dca/image/logo2.png</iconUrl>
+    <copyright>Copyright (c) 2018 D-Link Systems, Inc.</copyright>
+    <licenseUrl>http://support.dlink.com/Terms.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>ftp://ftp2.dlink.com/PRODUCTS/DGS-1100-08/REVA/DGS-1100-08_MANUAL_1.04_EN.PDF</docsUrl>
+    <bugTrackerUrl>http://support.dlink.com/search.aspx?m=DGS-1100-08</bugTrackerUrl>
+    <tags>smart console utility dlink managed switch admin</tags>
+    <summary>The SmartConsole Utility is a configuration wizard that easily allows customers to configure multiple D-Link web smart switches</summary>
+    <description>The SmartConsole Utility is a configuration wizard that easily allows customers to discover multiple D-Link web smart switches within the same L2 network segment connected to users local PC.
+
+Specialized for D-Link Web Smart Switch series, it provides easy initial setting of smart switches. Using this wizard, the administrator can do the following task:
+- View events log and traps
+- Do some configurations for any D-Link Switch discovered by SmartConsole Utility
+- Change the device password for any D-Link Switch discovered by SmartConsole Utility
+- Firmware Upgrade</description>
+    <releaseNotes>ftp://ftp2.dlink.com/SOFTWARE/SMART_CONSOLE_UTILITY/SMARTCONSOLEUTILITY_RELEASENOTE_3.00_EN.PDF</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
