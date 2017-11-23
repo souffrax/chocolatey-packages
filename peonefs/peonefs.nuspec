@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>peonefs</id>
+    <version>1.0.3938.18045</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/peonefs</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>PeoneFS</title>
+    <authors>Peonefs</authors>
+    <projectUrl>https://archive.codeplex.com/?p=peonefs</projectUrl>
+    <copyright>Copyright (c) 2006-2018 Peonefs</copyright>
+    <licenseUrl>https://opensource.org/licenses/MS-RL</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://codeplexarchive.blob.core.windows.net/archive/projects/Peonefs/Peonefs.zip</projectSourceUrl>
+    <docsUrl>https://archive.codeplex.com/?p=peonefs</docsUrl>
+    <bugTrackerUrl>https://archive.codeplex.com/?p=peonefs</bugTrackerUrl>
+    <tags>peonefs fs vfs filesystem dokan</tags>
+    <summary>The purpose of this project is to create a “file system” that represents an encrypted view of some other folders on the same machine</summary>
+    <description>The purpose of this project is to create a “file system” that represents an encrypted view of some other folders on the same machine. The idea is that in this way applications like offsite backup tools will always work with just the encrypted version of the data, so by the time the data leaves the machine there is no risk of exposing the actual files and folders. I started this project in order to create my own backup solution based upon rsync; unluckily there are not many ways to encrypt a file in such a way that is rsync friendly. Rsyncrypto is one of such tools but it has a few drawbacks: it only supports AES, it requires some file preprocessing (i.e. the backup tool must know that it needs to encrypt the file with it before handling it) and last but not least it is terribly slow on commodity hardware like modern Atom based machines. After discovering the existence of the Dokan library, which does the heavy lifting of writing the piping code necessary for developing a filter driver on Windows, I decided to write my own file system. In addition to [pseudo]encryption the file system does file/folder name obfuscation in order to make cryptoanalisys at least a little bit more difficult.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
