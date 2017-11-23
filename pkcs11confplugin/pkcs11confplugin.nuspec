@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pkcs11confplugin</id>
+    <version>0.1.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/pkcs11confplugin</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>PKCS11ConfPlugin</title>
+    <authors>ООО "ЛИССИ-Софт"</authors>
+    <projectUrl>http://soft.lissi.ru/ls_product/utils/PKCS11Manager-Web/</projectUrl>
+    <iconUrl>http://soft.lissi.ru/i/lissi_soft.png</iconUrl>
+    <copyright>Copyright (c) 2002-2017. ООО "ЛИССИ-Софт"</copyright>
+    <licenseUrl>http://soft.lissi.ru/templates/license_agreement.tmpl.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://soft.lissi.ru/ls_product/utils/PKCS11Manager-Web/</docsUrl>
+    <tags>pkcs11confplugin pkcs11-conf-plugin pkcs11-confplugin pkcs11conf-plugin pkcs11 conf plugin pkcs11manager-web pkcs11manager pkcs11-manager pkcs11-managerweb pkcs11managerweb gost</tags>
+    <summary>PKCS11ConfPlugin is a browser plugin, intended help in configuration of cryptography token/smart cards</summary>
+    <description>PKCS11ConfPlugin is a browser plugin, part of web service «PKCS11 Конфигуратор-Веб» («PKCS11Manager-Web»), which is intended help in configuration of cryptography token/smart cards with/without GOST crypto ciphers support.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
