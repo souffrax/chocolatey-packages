@@ -1,0 +1,45 @@
+version: 1.0.{build}
+branches:
+  except:
+  - master
+  - gh-pages
+image: Visual Studio 2015
+configuration: Release
+environment:
+  YANDEX_DISK_TOKEN:
+    secure: LX6gl4NMLAkkBfVRxj57OTUC2Vj1lJN4UgH6hHQ+icSpf5Saw9Gxt8XNUHmkPXfe
+  PAPERTRAIL_SERVER:
+    secure: wvCG4LlUnqfPVId8pv089HoZj3ywuIn52/348tuIHE8=
+  PAPERTRAIL_PORT:
+    secure: BByW+dd9wN7jF4BTkThXsA==
+install:
+- ps: >-
+    choco apikey --key $env:CHOCOLATEY_API_KEY --source https://push.chocolatey.org/
+    
+    choco install -y nxlog --no-progress
+    
+    $config = (curl 'https://help.papertrailapp.com/assets/files/nxlog.conf.sample') -replace 'logsN.papertrailapp.com',$env:PAPERTRAIL_SERVER -replace 'XXXXX',$env:PAPERTRAIL_PORT -replace 'C:\\\\path\\\\to\\\\\*\.log',(($env:TMP -replace '\\','\\'), "$env:APPVEYOR_REPO_BRANCH.log" -join '\\')
+    
+    [IO.File]::WriteAllLines("${env:ProgramFiles(x86)}\nxlog\conf\nxlog.conf", $config, (New-Object System.Text.UTF8Encoding $False))
+    
+    net stop nxlog
+    
+    net start nxlog
+
+    if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci rdp]')) {$blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))}
+build_script:
+- cmd: >-
+    cd /d "%APPVEYOR_BUILD_FOLDER%\%APPVEYOR_REPO_BRANCH%"
+
+    choco pack
+test_script:
+- ps: >-
+    cd "$env:APPVEYOR_BUILD_FOLDER\$env:APPVEYOR_REPO_BRANCH"
+
+    [xml]$nuspec = cat "$env:APPVEYOR_REPO_BRANCH.nuspec"
+
+    choco install -y $env:APPVEYOR_REPO_BRANCH -s '.;https://chocolatey.org/api/v2/' --version $nuspec.package.metadata.version --pre --no-progress | Out-File -Encoding UTF8 "$env:TMP/$env:APPVEYOR_REPO_BRANCH.log"
+
+    choco uninstall -y $env:APPVEYOR_REPO_BRANCH
+artifacts:
+- path: '**\*.nupkg'
