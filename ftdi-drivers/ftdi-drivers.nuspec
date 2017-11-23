@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ftdi-drivers</id>
+    <version>2.12.28</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ftdi-drivers</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>FTDI VCP and D2XX Drivers (Install)</title>
+    <authors>Future Technology Devices International Ltd.</authors>
+    <projectUrl>http://www.ftdichip.com/FTDrivers.htm</projectUrl>
+    <iconUrl>http://www.ftdichip.com/Images/ftdi_1.gif</iconUrl>
+    <copyright>Copyright (c) 2018 Future Technology Devices International Ltd.</copyright>
+    <licenseUrl>http://www.ftdichip.com/Drivers/FTDriverLicenceTermsSummary.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.ftdichip.com/Support/Documents/InstallGuides.htm</docsUrl>
+    <bugTrackerUrl>http://www.ftdichip.com/FTSupport.htm</bugTrackerUrl>
+    <tags>ftdi d2xx vcp usb uart converter admin</tags>
+    <summary>This package contains Virtual COM Port and D2XX drivers for FTDI devices</summary>
+    <description>This package contains Virtual COM Port and D2XX drivers for FTDI devices
+
+Virtual COM port (VCP) drivers cause the USB device to appear as an additional COM port available to the PC.  Application software can access the USB device in the same way as it would access a standard COM port.
+
+D2XX drivers allow direct access to the USB device through a DLL.  Application software can access the USB device through a series of DLL function calls.</description>
+    <releaseNotes>http://www.ftdichip.com/Drivers/CDM/CDM%202%2012%2028%20Release%20Info.rtf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
