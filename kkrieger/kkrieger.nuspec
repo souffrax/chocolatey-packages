@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kkrieger</id>
+    <version>2004.04</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kkrieger</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>.kkrieger</title>
+    <authors>.theprodukkt</authors>
+    <projectUrl>http://farbrausch.com/prod.py?which=114</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/1643931</iconUrl>
+    <copyright>Copyright (c) 2004-2012 .theprodukkt</copyright>
+    <licenseUrl>https://github.com/farbrausch/fr_public/blob/master/werkkzeug3_kkrieger/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/farbrausch/fr_public/tree/master/werkkzeug3_kkrieger</projectSourceUrl>
+    <docsUrl>https://github.com/farbrausch/fr_public/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/farbrausch/fr_public/issues</bugTrackerUrl>
+    <tags>kkrieger theprodukkt farbrausch demoscene demo breakpoint 2004 breakpoint-2004</tags>
+    <summary>kkrieger is a first-person shooter video game</summary>
+    <description>kkrieger (from Krieger, German for warrior) is a first-person shooter video game created by German demogroup .theprodukkt (a former subdivision of Farbrausch), which won first place in the 96k game competition at Breakpoint in April 2004. The game remains a beta version as of 2017.
+	
+.kkrieger makes extensive use of procedural generation methods. Textures are stored via their creation history instead of a per-pixel basis, thus only requiring the history data and the generator code to be compiled into the executable, producing a relatively small file size. Meshes are created from basic solids such as boxes and cylinders, which are then deformed to achieve the desired shape - essentially a special way of box modeling. These two generation processes account for the extensive loading time of the game — all assets of the gameplay are reproduced during the loading phase.
+
+The entire game uses only 97,280 bytes of disk space. In contrast, most contemporary first-person shooters filled one or more CDs or DVDs.[2] According to the developers, .kkrieger itself would take up around 200–300 MB of space if it had been stored the conventional way.[citation needed]
+
+The game music and sounds are produced by a multifunctional synthesizer called V2, which is fed a continuous stream of MIDI data. The synthesizer then produces the music in real time.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
