@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lslicplugin</id>
+    <version>1.0.0.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/lslicplugin</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>LSLicPlugin (Install)</title>
+    <authors>ООО "ЛИССИ-Софт"</authors>
+    <projectUrl>http://soft.lissi.ru/downloads/lic_and_download_eng/</projectUrl>
+    <iconUrl>http://soft.lissi.ru/about/news/2013/10/23/i/lissi_soft.png</iconUrl>
+    <copyright>Copyright (c) 2002-2017. ООО "ЛИССИ-Софт"</copyright>
+    <licenseUrl>https://choosealicense.com/no-permission/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://soft.lissi.ru/about/news/2013/10/23/</docsUrl>
+    <tags>lslicplugin lclic-plugin lclic plugin lissi-soft lissi soft license licensing gost crypto cryptography admin</tags>
+    <summary>LSLicPlugin is a web browser plugin required to get access to Lissi Soft licensing service</summary>
+    <description>LSLicPlugin is a web browser plugin required to get access to Lissi Soft licensing service
+
+Lissi Soft licensing service is a web service for obtaining Lissi Soft products licenses</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
