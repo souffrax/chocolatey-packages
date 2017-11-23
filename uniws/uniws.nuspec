@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>uniws</id>
+    <version>1.03</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/uniws</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Universal Widescreen Patcher</title>
+    <authors>Wogg</authors>
+    <projectUrl>http://www.wsgf.org/article/universal-widescreen-uniws-patcher</projectUrl>
+    <iconUrl>http://www.wsgf.org/f/u/logo.png</iconUrl>
+    <copyright>Copyright (c) 2011 Wogg</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.wsgf.org/article/universal-widescreen-uniws-patcher</docsUrl>
+    <bugTrackerUrl>http://www.wsgf.org/forums</bugTrackerUrl>
+    <tags>universal widescreen patcher uniws widescreen-patcher widescreen-patch patch</tags>
+    <summary>universal widescreen patcher patches games to properly support widescreen resolutions</summary>
+    <description>Started by Wogg, and continued by Mird-OC and Arcus, the WSGF features the Universal Widescreen Patcher (UniWS for short). Games that use the UniWS go way beyond the .ini and Registry hacks that we are all used to. The UniWS patches .dll and .exe files found in several popular "AAA" titles.
+
+The Patcher consists of two parts: The uniws.exe (which is the GUI interface and patcher), and the patches.ini file (which contains the game data to make the patch). You can download both here: uniws.zip.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
