@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cryptopro-browser-plugin</id>
-    <version>2.0.13064</version>
+    <version>1.5.1739.0</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cryptopro-browser-plugin</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>CryptoPro Browser Plugin (Install)</title>
@@ -17,7 +17,7 @@
     <tags>crypto cryptopro crypto-pro browser browser-plugin plugin digital-signature signature gost cades admin</tags>
     <summary>CryptoPro Browser Plugin is a plugin for using GOST cryptographic functions in browsers</summary>
     <description>CryptoPro Browser Plugin is a plugin for using GOST cryptographic functions in browsers.
-Compatible with CryptoPro CSP 3.6 R4 and higher (Windows) or CryptoPro CSP 4.0 and higher (Other OS).</description>
+Compatible with CryptoPro CSP 3.6 R2 and higher (Windows) or CryptoPro CSP 3.9 and higher (Other OS).</description>
     <releaseNotes>https://www.cryptopro.ru/products/cades/plugin/</releaseNotes>
   </metadata>
   <files>

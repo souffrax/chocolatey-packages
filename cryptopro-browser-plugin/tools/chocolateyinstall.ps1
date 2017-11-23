@@ -5,4 +5,4 @@
   }
 }
 
-Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '-silent -norestart' 'https://www.cryptopro.ru/products/cades/plugin/get_2_0' -Checksum '8f8ceb762f2d331eae6a23314e40afe56643f2d40f9ded5e35ae5bc4b004cecd' -ChecksumType 'sha256' -Options $options
+Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '-silent -norestart' 'https://www.cryptopro.ru/products/cades/plugin/get' -Checksum 'c27a2fb679eec98c4517e6e76a3f901bea9ba4e51ddfac7efdeb0014dd3b8408' -ChecksumType 'sha256' -Options $options
