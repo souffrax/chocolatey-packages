@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>smartpss</id>
+    <version>2.00.1.20170225</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/smartpss</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>SmartPSS (Install)</title>
+    <authors>Dahua Technology Co., Ltd</authors>
+    <projectUrl>http://us.dahuasecurity.com/product/smartpss/</projectUrl>
+    <iconUrl>https://dahuawiki.com/images/d/d6/SmartPSSIcon8.png</iconUrl>
+    <copyright>Copyright (c) 2010-2018 Dahua Technology Co., Ltd</copyright>
+    <licenseUrl>http://us.dahuasecurity.com/terms-of-use/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://dahuawiki.com/Manuals/SmartPSS/SmartPSS%20User's%20Manual%20V2.00.0.pdf</docsUrl>
+    <bugTrackerUrl>https://dahuawiki.com/Support</bugTrackerUrl>
+    <tags>admin smartpss dvr nvr surveillance dahua rtsp onvif</tags>
+    <summary>SmartPSS is an all-in-one, full-featured video surveillance application</summary>
+    <description>SmartPSS is an all-in-one, full-featured video surveillance application that is ideal for the small to mid-size business that needs to monitor people, premises, and assets. SmartPSS integrates all Dahua network cameras and storage devices into one intuitive, easy to use interface. The software provides efficient device management, video monitoring and playback, alarm and analytic configuration, as well as video wall setup and preview.</description>
+    <releaseNotes>http://www.dahuasecurity.com/support/downloadCenter/softwares?child=201</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
