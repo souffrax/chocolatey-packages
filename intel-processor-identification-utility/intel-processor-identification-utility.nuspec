@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>intel-processor-identification-utility</id>
+    <version>5.80.47</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/intel-processor-identification-utility</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Intel Processor Identification Utility (Install)</title>
+    <authors>Intel Corporation</authors>
+    <projectUrl>https://www.intel.com/content/www/us/en/support/products/5982/processors/processor-utilities-and-programs/intel-processor-identification-utility.html</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg</iconUrl>
+    <copyright>Copyright (c) 2018 Intel Corporation</copyright>
+    <licenseUrl>https://www.intel.com/content/www/us/en/legal/terms-of-use.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.intel.com/content/www/us/en/support/articles/000005495/processors.html</docsUrl>
+    <bugTrackerUrl>https://www.intel.com/content/www/us/en/support/contact-support.html</bugTrackerUrl>
+    <tags>intel processor identification utility pid cpuid admin</tags>
+    <summary>Identifies current Intel® Processors and technologies</summary>
+    <description>Identifies current Intel® Processors and technologies
+Enables you to run and save a processor ID report
+Uses a frequency test to make sure your processor is working at the rated speed
+Is available for download in a self-installing .msi file format</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
