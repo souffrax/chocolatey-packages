@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>opendedup-sdfs</id>
+    <version>3.5.8.5</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/opendedup-sdfs</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>OpenDedup SDFS (Install)</title>
+    <authors>Sam Silverberg</authors>
+    <projectUrl>http://opendedup.org</projectUrl>
+    <iconUrl>https://i1.wp.com/opendedup.org/odd/wp-content/uploads/2016/09/cropped-whiteopendedup2.png</iconUrl>
+    <copyright>Copyright (c) 2010-2017 Sam Silverberg</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/opendedup/sdfs</projectSourceUrl>
+    <docsUrl>http://opendedup.org/odd/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/opendedup/sdfs</bugTrackerUrl>
+    <tags>sdfs cloud dedup deduplication opendedup filesystem fs vfs dokan admin</tags>
+    <summary>SDFS is a POSIX compliant filesystem for Linux and Windows that performs inline deduplication to local disk or cloud object storage</summary>
+    <description>SDFS is a POSIX compliant filesystem for Linux and Windows that performs inline deduplication to local disk or cloud object storage. This means it works natively with the applications such as backup and vmware without any changes. All you do is copy data and it dedupes, compresses, encrypts, and saves your data on disk or in the cloud. you have today and performs all functions as if its local.
+
+
+On Windows SDFS looks like a drive letter and on Linux it acts like a mounted filesystem.
+
+SDFS Even performs advanced functions such as file level snapshots, and replication. Because SDFS only stores unique blocks, with replication, only unique blocks  that are not shared between the two SDFS volumes are replicated. This make replication faster and optimized for bandwidth.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
