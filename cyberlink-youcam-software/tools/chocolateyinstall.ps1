@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '' 'https://ftp.hp.com/pub/softpaq/sp58501-59000/sp58600.exe' -Checksum '12dd38e034b704cd16c469d35b575d9e79069c4897b82124826ddbe0823ac438' -ChecksumType 'sha256'
