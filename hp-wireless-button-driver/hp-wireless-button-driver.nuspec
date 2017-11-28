@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hp-wireless-button-driver</id>
+    <version>1.0.6.1-WIN8</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-wireless-button-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>HP Wireless Button Driver (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-112632-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-112632-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp wireless button hp-wireless-button hp-wireless wireless-button wireless-button-driver driver admin</tags>
+    <summary>This package provides the driver for the HP Wireless Button</summary>
+    <description>This package provides the driver for the HP Wireless Button on supported computer models that are running a supported operating system. HP Wireless Button allows the physical (hardware) wireless radio button on the system to enable and disable the wireless connection on the system.
+	
+Fixes
+- Fixes an intermittent issue which causes a black screen to be displayed after One Step Logon has been installed.- Provides the updated driver.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-112632-1</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
