@@ -3,24 +3,25 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hp-simplepass-identity-protection-2011-software</id>
-    <version>5.4.0.402</version>
+    <version>5.4.0.402-WIN7</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-simplepass-identity-protection-2011-software</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP SimplePass Identity Protection 2011 Software (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-103162-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
-    <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-103162-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp simplepass identity protection 2011 software hp-simplepass-identity-protection-2011 hp-simplepass-identity-protection hp-simplepass-identity hp-simplepass identity-protection admin</tags>
     <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <description>This package contains the HP SimplePass Identity Protection 2011 Software for the supported notebook models and operating systems. This software protects identity information and account access using the computer owner's fingerprint.
+	
+Fixes
+- Fixes issues with certain localizations or languages.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-103162-1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
