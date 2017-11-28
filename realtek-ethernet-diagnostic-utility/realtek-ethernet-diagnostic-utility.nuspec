@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>realtek-ethernet-diagnostic-utility</id>
+    <version>2.0.3.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/realtek-ethernet-diagnostic-utility</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Realtek Ethernet Diagnostic Utility (Install)</title>
+    <authors>Realtek Semiconductor Corp</authors>
+    <projectUrl>http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&amp;PNid=13&amp;PFid=5&amp;Level=5&amp;Conn=4&amp;DownTypeID=3&amp;GetDown=false</projectUrl>
+    <iconUrl>http://www.realtek.com.tw/image/logo.gif</iconUrl>
+    <copyright>Copyright (c) 2018 Realtek Semiconductor Corp</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.realtek.com.tw/faqs/faqsView.aspx?Langid=1&amp;PNid=1&amp;PFid=1&amp;Level=3&amp;Conn=3</docsUrl>
+    <bugTrackerUrl>http://www.realtek.com.tw/contact/contactView.aspx?Langid=1&amp;PNid=1&amp;PFid=1&amp;Level=1&amp;Conn=0</bugTrackerUrl>
+    <tags>realtek ethernet diagnostic utility tool fix diag admin</tags>
+    <summary>This is the official tool from Realtek. Use this program to identify problems with your Realtek Ethernet card</summary>
+    <description>This is the official tool from Realtek. Use this program to identify problems with your Realtek Ethernet card.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
