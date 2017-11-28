@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cyberlink-youcam-software</id>
-    <version>3.5.4.5527</version>
+    <version>3.5.0.4608-DE-Rev</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cyberlink-youcam-software</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Cyberlink YouCam Software (Install)</title>
