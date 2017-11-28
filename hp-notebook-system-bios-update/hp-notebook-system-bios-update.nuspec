@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hp-notebook-system-bios-update</id>
-    <version>F.1B-AMD-Processors</version>
+    <version>F.1A-AMD-Processors</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-notebook-system-bios-update</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP Notebook System BIOS Update (AMD Processors) (Install)</title>
