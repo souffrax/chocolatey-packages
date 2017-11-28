@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hp-application-assistant-software</id>
+    <version>1.0.409.3882-Rev-WIN7</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-application-assistant-software</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>HP Application Assistant Software (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100098-2</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100098-2</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp application assistant software hp-application-assistant application-assistant assistant-software admin</tags>
+    <summary>This package provides the HP Application Assistant software</summary>
+    <description>This package provides the HP Application Assistant software on supported notebook models that are running a supported operating system. HP Application Assistant provides recommendations for software that is free or available for purchase at the HP Download Store when the system is unable to open an unassociated file.
+	
+Fixes
+- Fixes an issue where the system is unable to repair HP Applications Assistant.- Provides an improved user interface. - Updates the installation process.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100098-2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
