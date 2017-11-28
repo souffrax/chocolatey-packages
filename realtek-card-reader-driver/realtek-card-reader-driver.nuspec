@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>realtek-card-reader-driver</id>
+    <version>10.0.370.188</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/realtek-card-reader-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Realtek Card Reader Driver (Install)</title>
+    <authors>Realtek Semiconductor Corp</authors>
+    <projectUrl>http://www.realtek.com.tw/Downloads/downloadsView.aspx?Langid=1&amp;PNid=15&amp;PFid=25&amp;Level=4&amp;Conn=3&amp;DownTypeID=3&amp;GetDown=false</projectUrl>
+    <iconUrl>http://www.realtek.com.tw/image/logo.gif</iconUrl>
+    <copyright>Copyright (c) 2018 Realtek Semiconductor Corp</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.realtek.com.tw/faqs/faqsFamlist.aspx?Langid=1&amp;PNid=1&amp;PFid=2&amp;Level=2&amp;Conn=1</docsUrl>
+    <bugTrackerUrl>http://www.realtek.com.tw/contact/contactView.aspx?Langid=1&amp;PNid=1&amp;PFid=1&amp;Level=1&amp;Conn=0</bugTrackerUrl>
+    <tags>realtek card reader realtek-card-reader realtek-card card-reader driver card-reader-driver admin</tags>
+    <summary>This package contains the driver that enables the Realtek Card Reader</summary>
+    <description>This package contains the driver that enables the Realtek Card Reader. The card reader enables users to read from or write to supported removable storage cards, which are typically used in digital cameras, digital music players, and cellular phones.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
