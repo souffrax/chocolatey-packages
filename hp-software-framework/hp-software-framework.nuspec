@@ -7,20 +7,22 @@
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-software-framework</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP Software Framework (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106977-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106977-1</docsUrl>
     <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
-    <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp software framework hp-software software-framework admin</tags>
+    <summary>HP Software Framework provides a common set of software interfaces that centralize and simplify access to hardware, BIOS and HP specific windows drivers</summary>
+    <description>HP Software Framework provides a common set of software interfaces that centralize and simplify access to hardware, BIOS and HP specific windows drivers. This package is available on supported notebook models running a supported operating system.
+	
+Fixes
+- Fixes an issue which causes a CaslSmBIOS error in the Event Viewer.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106977-1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
