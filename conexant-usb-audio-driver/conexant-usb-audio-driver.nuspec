@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>conexant-usb-audio-driver</id>
+    <version>1.29.10.0-HP</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/conexant-usb-audio-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Conexant USB Audio Driver (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100664-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100664-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp usb media port replicator hp-usb-media-port-replicator hp-usb-media-port hp-usb-media driver admin notsilent</tags>
+    <summary>The HP USB Media Port Replicator provides audio capabilities</summary>
+    <description>The HP USB Media Port Replicator provides audio capabilities. This package is available for supported devices and notebooks that are running a supported operating system.
+	
+Fixes
+- Provides enhanced stability when the docking station is connected to a system through a USB 3.0 port. - Provides enhanced stability when the docking station is connected to a system with an AMD CPU.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-100664-1</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
