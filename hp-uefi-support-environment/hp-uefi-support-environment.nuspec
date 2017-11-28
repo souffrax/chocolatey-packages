@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hp-uefi-support-environment</id>
-    <version>5.1.1.0</version>
+    <version>5.1.0.0</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-uefi-support-environment</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP Unified Extensible Firmware Interface (UEFI) Support Environment (Install)</title>
