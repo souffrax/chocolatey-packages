@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>atheros-bluetooth-driver</id>
-    <version>7.4.0.110</version>
+    <version>7.4.0.102-Rev</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/atheros-bluetooth-driver</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Atheros Bluetooth Driver (Install)</title>
