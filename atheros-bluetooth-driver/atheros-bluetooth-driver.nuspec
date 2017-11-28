@@ -3,24 +3,25 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>atheros-bluetooth-driver</id>
-    <version>7.4.0.102-Rev</version>
+    <version>1.00-WIN8-HP</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/atheros-bluetooth-driver</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Atheros Bluetooth Driver (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109691-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
-    <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
-    <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109691-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>qualcomm atheros bluetooth qualcomm-atheros atheros-bluetooth qualcomm-bluetooth driver admin</tags>
+    <summary>This package contains the driver installation package for the Qualcomm Atheros Bluetooth</summary>
+    <description>This package contains the driver installation package for the Qualcomm Atheros Bluetooth in the supported notebook models running a supported operating system.
+	
+Fixes
+- Resolves an issue which causes an error symbol to appear in the Device Manager.- Provides the updated driver.</description>
+    <releaseNotes>https://support.hp.com/soar-attachment/519/col45037-ob-109691-1-ob-109691-1_sp58499.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
