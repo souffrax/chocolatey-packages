@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qualcomm-atheros-ar9000-series-wlan-driver</id>
+    <version>1.00-WIN8-HP</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/qualcomm-atheros-ar9000-series-wlan-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Qualcomm Atheros AR9000 Series Wireless LAN Driver for Microsoft Windows (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109692-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109692-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>qualcomm atheros ar9000 series wireless lan controller qualcomm-atheros-ar9000-series-wireless-lan-controller driver admin</tags>
+    <summary>Driver installation package for the Qualcomm Atheros AR9000 Series wireless LAN Controller</summary>
+    <description>This package contains the driver installation package for the Qualcomm Atheros AR9000 Series wireless LAN Controller in the supported notebook models running a supported operating system.
+	
+Fixes
+- Provides the updated driver.</description>
+    <releaseNotes>https://support.hp.com/soar-attachment/837/col45038-ob-109692-1-ob-109692-1_sp58498.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
