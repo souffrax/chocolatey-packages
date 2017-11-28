@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ralink-wifi-adapter</id>
-    <version>3.2.7.0</version>
+    <version>3.2.3.0</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ralink-wifi-adapter</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Ralink 802.11 b/g/n WiFi Adapter (Install)</title>
