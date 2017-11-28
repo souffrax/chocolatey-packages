@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>broadcom-wlan-driver</id>
+    <version>6.30.59.49-WIN8</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/broadcom-wlan-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Broadcom Wireless LAN Driver (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109700-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-109700-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>broadcom-wireless-lan broadcom-wlan broadcom wireless-lan wlan wireless-lan-driver wlan-driver driver admin</tags>
+    <summary>This package contains the Broadcom Wireless LAN Drivers that are required to enable the integrated Broadcom Wireless LAN Adapter</summary>
+    <description>This package contains the Broadcom Wireless LAN Drivers that are required to enable the integrated Broadcom Wireless LAN Adapter in supported notebooks that are running a supported operating system.
+	
+Fixes
+- Fixes an intermittent issue where a system connected to a Bluetooth device does not properly enable high speed file transfer.</description>
+    <releaseNotes>https://support.hp.com/soar-attachment/174/col45043-ob-109700-1-ob-109700-1_sp58848.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
