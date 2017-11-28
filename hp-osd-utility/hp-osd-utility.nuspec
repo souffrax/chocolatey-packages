@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hp-osd-utility</id>
+    <version>1.30-RevA-WIN7</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-osd-utility</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>HP On-Screen Display Utility (Install)</title>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106851-2</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106851-2</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp on-screen display utility hp-on-screen-display hp-on-screen display-utility hp-osd osd-utility osd admin</tags>
+    <summary>This package provides the HP On-Screen Display Utility</summary>
+    <description>This package provides the HP On-Screen Display Utility for the supported notebook models and operating systems. The HP On-Screen Display Utility enables the pop-up graphic displays that are shown on the screen when certain characteristics, such as volume or brightness, are changed.
+	
+Fixes
+- Provides support for additional notebook models.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-106851-2</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
