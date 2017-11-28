@@ -7,20 +7,21 @@
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-coolsense-technology</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP CoolSense Technology (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-113328-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
-    <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
-    <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-113328-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp coolsense coolsense-technology admin</tags>
+    <summary>HP CoolSense Technology is a feature in some HP notebook PCs that combines hardware, software, and mechanical design to dynamically manage the temperature of a notebook</summary>
+    <description>HP CoolSense Technology is a feature in some HP notebook PCs that combines hardware, software, and mechanical design to dynamically manage the temperature of a notebook, and help keep you comfortable while using it. This feature is available on supported notebooks that are running a supported operating system.
+	
+Fixes 
+- Provides the updated CoolSense.ini file.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-113328-1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
