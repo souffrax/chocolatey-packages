@@ -3,24 +3,26 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hp-uefi-support-environment</id>
-    <version>4.2.0.0</version>
+    <version>5.1.2.0</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-uefi-support-environment</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>HP Unified Extensible Firmware Interface (UEFI) Support Environment (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-119363-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
-    <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
-    <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-119363-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>hp uefi unified-extensible-firmware-interface hp-uefi-support hp-uefi-support-environment uefi-support-environment admin</tags>
+    <summary>This package provides the HP Unified Extensible Firmware Interface (UEFI) Support Environment</summary>
+    <description>This package provides the HP Unified Extensible Firmware Interface (UEFI) Support Environment for the supported notebook models and operating systems. HP UEFI Support Environment provides UEFI based hardware diagnostics used to validate if a system is functioning correctly. Additional support is provided for updating and managing the system BIOS and other device firmware on the system.
+	
+Fixes 
+- Provides support for additional Intel graphics processors. 
+- Restores the video resolution after exiting the UEFI.</description>
+    <releaseNotes>https://support.hp.com/soar-attachment/707/col49154-ob-119363-1-ob-119363-1_sp61101.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
