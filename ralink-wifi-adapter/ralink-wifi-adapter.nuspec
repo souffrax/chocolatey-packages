@@ -3,24 +3,25 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ralink-wifi-adapter</id>
-    <version>3.2.2.0</version>
+    <version>3.2.7.0-HP</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ralink-wifi-adapter</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Ralink 802.11 b/g/n WiFi Adapter (Install)</title>
-    <authors>___</authors>
-    <projectUrl>http://a.b</projectUrl>
-    <iconUrl>http://a.b</iconUrl>
-    <copyright>Copyright (c) 2017</copyright>
-    <licenseUrl>http://a.b</licenseUrl>
+    <authors>HP Development Company, L.P.</authors>
+    <projectUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-111717-1</projectUrl>
+    <iconUrl>https://ssl.www8.hp.com/us/en/images/i/hpi/header-footer/caas-hf-v3.2/hpi-hp-logo-pr.gif</iconUrl>
+    <copyright>Copyright (c) 2012-2018 HP Development Company, L.P.</copyright>
+    <licenseUrl>https://support.hp.com/document/c00581401</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://a.b</projectSourceUrl>
-    <docsUrl>http://a.b</docsUrl>
-    <mailingListUrl>http://a.b</mailingListUrl>
-    <bugTrackerUrl>http://a.b</bugTrackerUrl>
-    <tags>admin notsilent</tags>
-    <summary></summary>
-    <description>___</description>
-    <releaseNotes></releaseNotes>
+    <docsUrl>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-111717-1</docsUrl>
+    <bugTrackerUrl>https://support.hp.com</bugTrackerUrl>
+    <tags>ralink wireless lan controllers ralink-wireless-lan ralink-wlan driver admin</tags>
+    <summary>Driver installation package for the Ralink Wireless LAN Controllers</summary>
+    <description>This package contains the driver installation package for the Ralink Wireless LAN Controllers in supported notebook models that are running a supported operating system.
+	
+Fixes
+- Fixes an issue where the system does not detect the HP wireless mouse device after the driver is installed.</description>
+    <releaseNotes>https://support.hp.com/us-en/drivers/selfservice/swdetails/hp-pavilion-dv6-6c00-entertainment-notebook-pc-series/5191856/model/5220614/swItemId/ob-111717-1</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
