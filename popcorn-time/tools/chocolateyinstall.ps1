@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'https://get.popcorntime.sh/build/Popcorn-Time-0.3.10-Setup.exe' -Checksum '46b7735ea11bc82b31a86920ad3207370ed8ad8525c06f4b72710fc9966caab6' -ChecksumType 'sha256'
