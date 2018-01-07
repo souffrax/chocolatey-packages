@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>internet-download-accelerator</id>
+    <version>6.14</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/internet-download-accelerator</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Internet Download Accelerator (Install)</title>
+    <authors>WestByte Software</authors>
+    <projectUrl>https://westbyte.com/ida/</projectUrl>
+    <iconUrl>https://westbyte.com/ida/images/section_name.gif</iconUrl>
+    <copyright>Copyright (c) WestByte Software, 1998-2017</copyright>
+    <licenseUrl>https://westbyte.com/index.phtml?page=privacy&amp;tmp=1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://westbyte.com/ida/help/</docsUrl>
+    <bugTrackerUrl>https://westbyte.com/index.phtml?page=support&amp;tmp=1</bugTrackerUrl>
+    <tags>admin</tags>
+    <summary>Internet Download Accelerator effectively solves three of the biggest problems when downloading files: speed, resuming broken downloads, and management of downloaded files.</summary>
+    <description>Internet Download Accelerator effectively solves three of the biggest problems when downloading files: speed, resuming broken downloads, and management of downloaded files.
+
+The distinguishing features of Internet Download Accelerator are superior overall performance and convenient user interface.
+
+IDA AVCInternet Download Accelerator lets you to noticeably increase the speed of file download from the Internet using HTTP, HTTPS and FTP protocols. The acceleration is achieved by splitting a file being downloaded into several parts and downloading these parts at the same time. Internet Download Accelerator resumes broken downloads from where they left off from both HTTP, HTTPS and FTP servers.
+</description>
+    <releaseNotes>https://westbyte.com/ida/index.phtml?page=history</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

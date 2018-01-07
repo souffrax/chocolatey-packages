@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' 'http://download1.westbyte.com/ida/idasetup.exe' -Checksum '8703eeb4d8313c58f6b3b380c341fbaa1b0d0adaa522d454b6e6bda89b7c9ef1' -ChecksumType 'sha256'
