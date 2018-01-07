@@ -1,0 +1,1 @@
+﻿Get-ChocolateyWebFile "$env:chocolateyPackageName" "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\blockcheck.exe" 'https://github.com/ValdikSS/blockcheck/releases/download/0.0.9.6/blockcheck-0.0.9.6-windows.exe' -Checksum 'b5aa82ea803ccf7315ca53659b214aa9ed43aaf9a7d903bbcb77ac82811d0429' -ChecksumType 'sha256'
