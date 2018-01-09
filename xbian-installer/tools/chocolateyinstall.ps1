@@ -1,0 +1,1 @@
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'https://downloads.sourceforge.net/project/xbian/installers/XBian-installer-Windows.zip' "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)" -Checksum '1364ef6ef5e64cc595da939cabdefebd65aaf918f1d276120b27c386c722d559' -ChecksumType 'sha256'

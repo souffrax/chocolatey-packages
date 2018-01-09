@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xbian-installer</id>
+    <version>1.4</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/xbian-installer</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>XBian Installer</title>
+    <authors>XBian</authors>
+    <projectUrl>http://www.xbian.org</projectUrl>
+    <iconUrl>http://www.xbian.org/wp-content/uploads/2016/02/xbian_logo.png</iconUrl>
+    <copyright>Copyright (c) XBian 2013-2018</copyright>
+    <licenseUrl>https://github.com/xbianonpi/xbian/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<projectSourceUrl>https://github.com/xbianonpi/xbian-installer-universal</projectSourceUrl>
+    <docsUrl>http://wiki.xbian.org</docsUrl>
+    <bugTrackerUrl>https://github.com/xbianonpi/xbian/issues</bugTrackerUrl>
+    <tags>xbian xbmc raspberry kodi raspberrypi raspberry-pi pi mediacenter media media-center distribution</tags>
+    <summary>XBian is a small, fast and lightweight media center distribution for the Raspberry Pi, CuBox-i, Hummingboard</summary>
+    <description>XBian is a small, fast and lightweight media center distribution for the Raspberry Pi, CuBox-i, Hummingboard and many more devices to come. It is based on a minimal Debian and therefore offers much of the same freedom as Debian offers.
+
+Our slogan is “XBian, the bleeding edge” as our main focus is delivering the fastest Kodi solution for various small form factor computers.
+
+Just like Debian, XBian incorporates rolling releases. This means that different from other distributions such as OpenELEC or Raspbmc, XBian doesn't release fixed images that often.
+
+In contrast, XBian offers new package updates at least once a week. This means that new improvements and bugfixes are delivered quickly and easily.
+
+When you keep your system updated, you will also start using new releases automatically. When all packages belonging to a new release are installed, XBian will also increase its own version.
+
+So, you never need to reinstall!
+
+This also means you can just install XBian Beta 2 and upgrade to XBian Release Candidate 2 in one go. Just as you can upgrade to XBian Stable 1 once it is released.
+</description>
+    <releaseNotes>https://github.com/xbianonpi/xbian-installer-universal/commits/master</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
