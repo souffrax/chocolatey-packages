@@ -1,0 +1,1 @@
+﻿Get-ChocolateyWebFile "$env:chocolateyPackageName" "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osmc-installer.exe" 'http://download.osmc.tv/installers/osmc-installer.exe' -Checksum 'c25cb665962bd53cd7cc741ec40b780a5a0893e9cf508b2b5f0e48d5413411d2' -ChecksumType 'sha256'

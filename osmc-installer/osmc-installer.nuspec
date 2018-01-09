@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>osmc-installer</id>
+    <version>130.0.0.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/osmc-installer</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>OSMC Installer</title>
+    <authors>OSMC</authors>
+    <projectUrl>https://osmc.tv</projectUrl>
+    <iconUrl>https://discourse-cdn.osmc.tv/uploads/default/original/2X/4/490dabf57baddbdc08ba95bc77627f269bd4cea9.png</iconUrl>
+    <copyright>Copyright (c) 2014 - 2018 OSMC</copyright>
+    <licenseUrl>https://github.com/osmc/osmc/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/osmc/osmc</projectSourceUrl>
+    <docsUrl>https://osmc.tv/wiki/</docsUrl>
+    <bugTrackerUrl>https://github.com/osmc/osmc/issues</bugTrackerUrl>
+    <tags>osmc xbmc raspberry kodi raspberrypi raspberry-pi pi mediacenter media media-center distribution raspbmc</tags>
+    <summary>OSMC is a free and open source media center built for the people, by the people.</summary>
+    <description>OSMC is a free and open source media center built for the people, by the people.
+
+OSMC (Open Source Media Center) is a free and open source media player based on Linux. Founded in 2014, OSMC lets you play back media from your local network, attached storage and the Internet. OSMC is the leading media center in terms of feature set and community and is based on the Kodi project.
+
+Simple and easy to use.
+Although OSMC is based on Linux, you don’t need to have any experience with Linux to get it up and running in the way you want. Everything is easily managed through the OSMC interface. For those that do want to tinker, you have the full Debian repositories (which bring over 30,000 packages) at your disposal.
+
+It’s free and open source.
+It’s not just free in price. You’re also free to do whatever you want with the software. OSMC is licensed under version 2 of the GPL. Anyone is free to use OSMC and its code, but should they make any changes, they should contribute them back to the OSMC project. This fits in perfect with our development philosophy. OSMC is great because it’s built on great software with the same values.
+
+OSMC installs in a matter of minutes
+We’re proud that you can install OSMC on a number of devices (find out which ones here) in just a matter of minutes. Our easy installer is what separates OSMC from other media center products out there. We’re always happy to help as well if you run in to any trouble.
+
+Get easy updates and apps
+You’ll receive regular updates which make OSMC better every month. You can choose when (and if) you’d like to install updates, as well as install new apps via our app store. Everything in our app store is free. Get a torrent client, web browser and TV tuner up in seconds. All from your remote.
+
+OSMC has a big community
+OSMC has a large, bustling community full of users willing to help newcomers get up and running. We’ve also got a wealth of resources to help you get the best of OSMC.
+
+Play anything from anywhere.
+OSMC can play all major media formats out there and supports a variety of sharing protocols so you’re guaranteed to be able to stream from other devices. OSMC can stream media and serve files to other devices as well!
+
+It looks fantastic
+A great deal of love and care has been put in to engineering OSMC to be the best media center out there. OSMC’s look and feel is no exception. OSMC is more than just a media center: it’s an experience. Don’t take our word for it though. Give it a spin!
+</description>
+    <releaseNotes>https://github.com/osmc/osmc/commits/master/installer/host</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
