@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>asrock-3tb-plus-unlocker</id>
+    <version>1.1.1</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/asrock-3tb-plus-unlocker</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>ASRock 3TB+ Unlocker (Install)</title>
+    <authors>ASRock Inc.</authors>
+    <projectUrl>https://www.asrock.com/feature/3tb/</projectUrl>
+    <iconUrl>https://www.asrock.com/feature/3tb/download.gif</iconUrl>
+    <copyright>Copyright (c) 2002-2016 ASRock Inc.</copyright>
+    <licenseUrl>https://www.asrock.com/general/TermsPrivacy.asp</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.asrock.com/feature/3tb/</docsUrl>
+    <bugTrackerUrl>https://event.asrock.com/tsd.asp</bugTrackerUrl>
+    <tags>asrock mbr gpt 3tb 3tb-plus admin</tags>
+    <summary>ASRock 3TB+ Unlocker is an MBR to GPT converter for ASRock motherboards</summary>
+    <description>ASRock, Inc. the global motherboard manufacturer officially released their exclusive “3TB+ Unlocker” utility that delivers the maximum potential of the hard disk. The fantastic 3TB+ Unlocker tool offers a tweak-friendly feature, breaking the limitation of 32-bit operation system that could only detect the hard disk within 2048GB. It also allows ASRock motherboards without UEFI Technology to take advantage of the hidden storage space on 3TB and larger HDDs, helping to fully utilize the wasted spaces.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
