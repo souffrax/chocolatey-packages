@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '' 'https://download.microsoft.com/download/7/5/B/75B73FA4-3ACB-4131-8A32-B3E51CC3FEF5/WindowsXPMode_ru-ru.exe' -Checksum '6782dee140f03280204f060e87398bc9735f2f413ab57cc280d0ad13f75350d3' -ChecksumType 'sha256'
