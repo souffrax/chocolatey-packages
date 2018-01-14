@@ -1,6 +1,2 @@
-﻿# Path to the folder where the script is executing
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-# Download from an HTTPS location
-Get-ChocolateyWebFile -PackageName "$env:chocolateyPackageName" -FileFullPath "$toolsDir\litemanager_4.8.zip" -Url 'http://litemanager.com/soft/litemanager_4.8.zip' -Checksum '418eb64254bc11f3795df78c8df8dbac2a1ccb3da21b9490295d19f31bc5c795' -ChecksumType 'sha256'
-Get-ChocolateyUnzip -FileFullPath "$toolsDir\litemanager_4.8.zip" -Destination $toolsDir
-Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' "$toolsDir\LiteManager Pro - Viewer.msi" -Checksum 'cc923037e783c7d10356be3e3b1cebb3d261ae6124f4d9b2989568ab90e51fbb' -ChecksumType 'sha256'
+﻿Install-ChocolateyZipPackage "$env:chocolateyPackageName" 'http://litemanager.com/soft/litemanager_4.8.zip' "$env:TMP" -Checksum '5e27c47fac38ef31467776b3872a2033c599d3cbd91cfbd5109e84509f0e14b2' -ChecksumType 'sha256'
+Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' "$env:TMP\LiteManager Pro - Viewer.msi" -Checksum 'bb6e36dd6ee043fb2e42b3bde6e54185e0c36bb6cc7e13ec142acf67dcf980b4' -ChecksumType 'sha256'
