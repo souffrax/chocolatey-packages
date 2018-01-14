@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'exe' '/S' 'http://dl.acestream.org/products/acestream-full/win/latest' -Checksum 'afbbc7f497ed187e6ad98d215b34cf0ec762dafccd57862b81778b068becbee1' -ChecksumType 'sha256'

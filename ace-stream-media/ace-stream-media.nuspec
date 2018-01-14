@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ace-stream-media</id>
+    <version>3.1.20.3</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ace-stream-media</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Ace Stream Media (Install)</title>
+    <authors>LTD «Innovative Digital Technologies»</authors>
+    <projectUrl>http://www.acestream.org</projectUrl>
+    <iconUrl>http://static.torrentstream.org/sites/acestream-org/1280/img/logo.png</iconUrl>
+    <copyright>Copyright (c) 2014-2018 LTD «Innovative Digital Technologies»</copyright>
+    <licenseUrl>http://www.acestream.org/license_en.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://bitbucket.org/AceStream/acestreamplayer</projectSourceUrl>
+    <docsUrl>http://wiki.acestream.org</docsUrl>
+    <bugTrackerUrl>http://forum.torrentstream.org</bugTrackerUrl>
+    <tags>admin</tags>
+    <summary>This is an innovative media platform of a new generation, which will take you to a new high-quality level of multimedia space on the Internet.</summary>
+    <description>Ace Stream is an innovative multimedia platform of a new generation, which includes different products and solutions for ordinary Internet users as well as for professional members of the multimedia market.
+
+Note: Ace Stream uses in its core, P2P (peer-to-peer) technology, BitTorrent protocol, which is acknowledged as the most effective protocol to transfer/deliver «heavy content».
+
+Ace Stream is more than just BitTorrent client for file exchange via P2P-networks!
+
+The main directions of platform specialization: AVoD (Audio and Video on Demand), Live Stream (live broadcast), localization of foreign BitTorrent traffic, decentralized social networks, and IOTT (Interactive-Over-The-Top).
+
+Ace Stream platform provides excellent audio-visual quality for Internet online broadcasts/shows and the most effective system of storing and delivering audio and video content.
+
+Note: Ace Stream users watch online video with audio-visual quality level ten times greater than quality of video on YouTube (provided in 1080p format) and many times greater than broadcasts/shows of all other existing services of VoD and Live Stream provided by OTT (Over The Top) service operators, which do not use P2P technology.
+
+No existing Live Stream service or standard CDN operator using unicast can provide live broadcast with the same high level quality, for the same number of viewers, that can be provided by the average Ace Stream user from his personal computer using home Internet-channel!</description>
+    <releaseNotes>http://wiki.acestream.org/wiki/index.php/AceStream_3.0/en#Changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
