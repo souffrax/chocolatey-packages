@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://gnokii.org/download/gnokii/binaries/win32/gnokii-0.6.31-release-setup.msi' -Checksum '21bf1b615f764b814214d9367ddd3f5312d3a4c5a4345caaede9810a30d37ccc' -ChecksumType 'sha256'
