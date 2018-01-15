@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sprut-universal-update</id>
+    <version>2.72.60</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/sprut-universal-update</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Sprut Universal Update (Install)</title>
+    <authors>RCOM company</authors>
+    <projectUrl>http://www.gsm-sprut.com/p.php?pid=250&amp;l=1</projectUrl>
+    <iconUrl>http://www.rcom.com.ua/wp-content/uploads/2017/08/rcom_logo_.png</iconUrl>
+    <copyright>Copyright (c) 2009-2018 RCOM company</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.gsm-sprut.com/files/file/SprutUniversal/Instruction/Instruction_program.pdf</docsUrl>
+    <bugTrackerUrl>http://www.gsm-sprut.com/forum/</bugTrackerUrl>
+    <tags>sms sprut-universal rcom r-com com gsm fxs gateway vcom update firmware admin</tags>
+    <summary>Sprut Universal Update is a utility for updating firmware of Sprut Universal</summary>
+    <description>Sprut Universal Update is a utility for updating firmware of Sprut Universal GSM FXS gateway</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
