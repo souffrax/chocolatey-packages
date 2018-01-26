@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cyberlink-youcam</id>
+    <version>3.5.0.4305DE</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/cyberlink-youcam</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Cyberlink YouCam (Install)</title>
+    <authors>CyberLink Corp</authors>
+    <projectUrl>https://www.cyberlink.com/products/youcam/features_en_US.html</projectUrl>
+    <iconUrl>https://www.cyberlink.com/prog/product/html/29518/7/img/box_combo.jpg</iconUrl>
+    <copyright>Copyright (c) 2009-2018 CyberLink Corp</copyright>
+    <licenseUrl>https://www.cyberlink.com/support/product-faq-content.do?id=18407</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.cyberlink.com/support/youcam/userguide_en_US.html</docsUrl>
+    <bugTrackerUrl>https://www.cyberlink.com/support/index.html</bugTrackerUrl>
+    <tags>cyberlink youcam webcam camera effects video admin</tags>
+    <summary>CyberLink YouCam 7 delivers the functionality of a complete live video studio, to take full advantage of your webcam.</summary>
+    <description>	
+CyberLink YouCam 7 delivers the functionality of a complete live video studio, to take full advantage of your webcam. It comes with face beautifier tools, over 200 fun effects for video chats and recordings, and a full set of capture tools.  Additionally, it offers simple-to-use and efficient security tools, such as surveillance and face login. Transform your virtual presence with YouCam 7.
+</description>
+    <releaseNotes>https://www.cyberlink.com/support/youcam/patches_en_US.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
