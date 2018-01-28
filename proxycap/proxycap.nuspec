@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>proxycap</id>
+    <version>5.29</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/proxycap</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>ProxyCap (Install)</title>
+    <authors>Proxy Labs</authors>
+    <projectUrl>http://www.proxycap.com</projectUrl>
+    <iconUrl>http://www.proxycap.com/images/top_logo_i_b.gif</iconUrl>
+    <copyright>Copyright (c) 2016, Proxy Labs</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.proxycap.com/faq.html</docsUrl>
+    <bugTrackerUrl>http://www.proxycap.com/contact.html</bugTrackerUrl>
+    <tags>proxycap proxy socks socks-proxy https-proxy admin</tags>
+    <summary>ProxyCap enables you to redirect your computer's network connections through proxy servers</summary>
+    <description>ProxyCap enables you to redirect your computer's network connections through proxy servers. You can tell ProxyCap which applications will connect to the Internet through a proxy and under what circumstances. This is done through a user friendly interface, without the need to reconfigure any of your Internet clients. ProxyCap has native support for the SSH protocol, allowing you to specify a SSH server as the proxy server.
+
+Support for SOCKS and HTTPS proxy servers
+Built-in support for SSH tunneling
+Support for “pure” HTTP proxying
+Support for TCP- and UDP-based network protocols
+Proxy-side DNS support
+Flexible routing rules
+Support for proxy chains
+Support for 64-bit applications
+IPv6 support
+Support for Single Sign-On (SSO)
+Built-in proxy checker
+Centralized management support</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
