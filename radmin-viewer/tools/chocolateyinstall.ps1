@@ -1,1 +1,9 @@
-﻿Install-ChocolateyPackage "$env:chocolateyPackageName" 'msi' '/qn /norestart' 'https://www.radmin.ru/download/Radmin_Viewer_3.5.1_RU.msi' -Checksum 'c8d5a0c4fdae231cc1302199ce2fea9ba88991aa056b57ba23de5e0c67f083b5' -ChecksumType 'sha256'
+﻿$packageArgs = @{
+  packageName            = "$env:chocolateyPackageName"
+  FileType               = 'msi'
+  SilentArgs             = '/qn /norestart'
+  url                    = 'https://www.radmin.com/download/Radmin_Viewer_3.5.2.1_EN.msi'
+  checksum               = '219297c19fcd91e88a6c0d5c6055370ee185ae97d1462c7ecabff2d586cf471f'
+  checksumType           = 'sha256'
+}
+Install-ChocolateyPackage @packageArgs
