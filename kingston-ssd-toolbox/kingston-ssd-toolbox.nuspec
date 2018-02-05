@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kingston-ssd-toolbox</id>
+    <version>1.0.8</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kingston-ssd-toolbox</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Kingston SSD Toolbox (Install)</title>
+    <authors>Kingston Technology Corporation</authors>
+    <projectUrl>https://www.kingston.com/support/technical/ssdmanager</projectUrl>
+    <iconUrl>https://media.kingston.com/images/kingston-technology-company.png</iconUrl>
+    <copyright>Copyright (c) 2017 Kingston Technology Corporation</copyright>
+    <licenseUrl>https://www.kingston.com/company/privacy</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://www.kingston.com/us/support/technical/kingston-ssd-toolbox</docsUrl>
+    <bugTrackerUrl>https://www.kingston.com/support</bugTrackerUrl>
+    <tags>kingston ssd toolbox kingston-ssd ssd-toolbox smart admin</tags>
+    <summary>The Kingston® SSD Toolbox is an installable application that provides users with the ability to monitor various aspects related to the status of their Sandforce-based Kingston SSD</summary>
+    <description>The Kingston® SSD Toolbox is an installable application that provides users with the ability to monitor various aspects related to the status of their Sandforce-based Kingston SSD.
+
+With the Kingston® SSD Toolbox users will be able to:
+
+Monitor drive health, status and disk usage
+View drive identification data including model name, serial number, firmware version, and other relevant information
+Utilize Self-Monitoring, Analysis, and Reporting Technology (SMART) and export detailed reports in .CSV format
+Update drive firmware
+Run drive diagnostic scans
+Securely erase their data ( Windows® 7 only)</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
