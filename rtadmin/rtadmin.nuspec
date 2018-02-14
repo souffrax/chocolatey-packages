@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rtadmin</id>
+    <version>1.1</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/rtadmin</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>rtAdmin</title>
+    <authors>Компания «Актив»</authors>
+    <projectUrl>https://www.rutoken.ru/support/download/drivers-for-windows/</projectUrl>
+    <iconUrl>https://www.rutoken.ru/images/logo.png</iconUrl>
+    <copyright>Copyright 1994-2017 (c) Компания «Актив»</copyright>
+    <licenseUrl>https://download.rutoken.ru/License_Agreement.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://dev.rutoken.ru/pages/viewpage.action?pageId=7995615</docsUrl>
+    <bugTrackerUrl>https://www.rutoken.ru/support/feedback/</bugTrackerUrl>
+    <tags>crypto office digital-signature signature gost cades bookkeeping rutoken aktiv</tags>
+    <summary>rtAdmin is a utility intended for automation of formatting and administering of Rutoken tokens</summary>
+    <description>rtAdmin is a utility intended for automation of formatting and administering of Rutoken cryptographic tokens: changing token label, PIN-codes and PIN-codes attributes.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
