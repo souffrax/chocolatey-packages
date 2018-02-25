@@ -1,10 +1,10 @@
 ﻿$packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://download.microsoft.com/download/platformsdk/sdk/update/win98mexp/en-us/2600.2180/PSDK-SDK_MSI_BIN-common.0.cab'
-  checksum               = '43c5d39548ad24bc2d45ca2e4b6f47c0394388ccee71af7ed7c8a2dd71b48459'
+  url                    = 'https://download.microsoft.com/download/platformsdk/sdk/update/win98mexp/en-us/3672.1/msisdk-common.3.0.cab'
+  checksum               = '572784a1e94798d56200b8c4d4a170f2d4bc490774c4b5fb9e90c00958c9558f'
   checksumType           = 'sha256'
   UnzipLocation          = "$env:TMP"
-  SpecificFolder         = 'Orca_Msi.A56930A2_F5D6_4E2A_BF20_10057BD915EB'
+  SpecificFolder         = 'Orca_Msi.FD66E721_5AA0_41BC_AA26_1EC8F7FA1175'
 }
 Install-ChocolateyZipPackage @packageArgs
 
@@ -12,6 +12,6 @@ $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
   FileType               = 'msi'
   SilentArgs             = '/qn /norestart'
-  File                   = "$env:TMP\Orca_Msi.A56930A2_F5D6_4E2A_BF20_10057BD915EB"
+  File                   = "$env:TMP\Orca_Msi.FD66E721_5AA0_41BC_AA26_1EC8F7FA1175"
 }
 Install-ChocolateyInstallPackage @packageArgs
