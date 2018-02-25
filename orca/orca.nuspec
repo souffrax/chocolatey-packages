@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>orca</id>
-    <version>1.50.3718.0000</version>
+    <version>3.1.3790.0000</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/orca</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Orca (Install)</title>
