@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>http://soft.lissi.ru/docs/Fox_XCA/FoxXCA-AdminGuide.pdf</docsUrl>
     <bugTrackerUrl>http://soft.lissi.ru/about/contact/</bugTrackerUrl>
-    <tags>fox-xca xca ca pki crypto cryptography openssl notsilent admin</tags>
+    <tags>fox-xca xca ca pki crypto cryptography openssl admin</tags>
     <summary>Fox-XCA is a version of XCA with GOST ciphers support</summary>
     <description>Fox-XCA is a version of XCA with GOST ciphers support
 	
