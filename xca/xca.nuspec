@@ -16,7 +16,7 @@
     <projectSourceUrl>https://sourceforge.net/p/xca/code/</projectSourceUrl>
     <docsUrl>http://xca.sourceforge.net</docsUrl>
     <bugTrackerUrl>https://sourceforge.net/p/xca/bugs/</bugTrackerUrl>
-    <tags>xca ca pki crypto cryptography openssl notsilent admin</tags>
+    <tags>xca ca pki crypto cryptography openssl admin</tags>
     <summary>X Certificate and Key management is an interface for managing asymetric keys like RSA or DSA. It is intended as a small CA for creation and signing certificates</summary>
     <description>X Certificate and Key management is an interface for managing asymetric keys like RSA or DSA. It is intended as a small CA for creation and signing certificates. It uses the OpenSSL library for the cryptographic operations.
 
