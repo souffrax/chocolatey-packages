@@ -6,7 +6,7 @@
     <version>1.4.8</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ppdgr</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>Программа подготовки документов для государственной регистрации (Install)</title>
+    <title>PPDGR (Install)</title>
     <authors>АО "ГНИВЦ"</authors>
     <projectUrl>https://www.gnivc.ru/software/software_ul_fl/registration/</projectUrl>
     <iconUrl>https://www.nalog.ru/css/ul/i/logo.png</iconUrl>
@@ -15,13 +15,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/install.doc</docsUrl>
     <bugTrackerUrl>https://www.gnivc.ru/feedback/</bugTrackerUrl>
-    <tags>admin notsilent ppdgr pfdgr government taxes</tags>
-    <summary>Программа «ППДГР» предназначена для автоматизированной подготовки документов, используемых при государственной регистрации в Российской Федерации</summary>
-    <description>Программа «ППДГР» предназначена для автоматизированной подготовки документов, используемых при государственной регистрации, а также формирование контейнера для подачи заявления о государственной регистрации в электронном виде.
+    <tags>admin notsilent ppdgr pfdgr government taxes ltd llc law laws</tags>
+    <summary>PPDGR software is designed for automated creation of package of documents required when registering juridical person in Russia</summary>
+    <description>PPDGR software is designed for automated creation of package of documents required when registering juridical person (contains, but not limited private limited company / sole proprietorship) in Russia. PPDGR also can be used for creating an information container, used while sending registration documents online.
 
-Общие положения:
+Common details:
 
-Программа «ППДГР» заменила программу «ПФДГР».
+PPDGR software replaces PFDGR software.
 </description>
     <releaseNotes>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/readme.doc</releaseNotes>
     <dependencies>
