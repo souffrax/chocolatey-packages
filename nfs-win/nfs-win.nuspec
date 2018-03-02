@@ -9,7 +9,6 @@
     <title>nfs-win (Install)</title>
     <authors>Bill Zissimopoulos</authors>
     <projectUrl>https://github.com/billziss-gh/nfs-win</projectUrl>
-    <iconUrl>https://avatars3.githubusercontent.com/u/15330948</iconUrl>
     <copyright>Copyright (c) 2017 Bill Zissimopoulos</copyright>
     <licenseUrl>https://github.com/billziss-gh/nfs-win/blob/master/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
