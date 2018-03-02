@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/install.doc</docsUrl>
     <bugTrackerUrl>https://www.gnivc.ru/feedback/</bugTrackerUrl>
-    <tags>admin notsilent ppdgr pfdgr government taxes ltd llc law laws</tags>
+    <tags>admin ppdgr pfdgr government taxes ltd llc law laws</tags>
     <summary>PPDGR software is designed for automated creation of package of documents required when registering juridical person in Russia</summary>
     <description>PPDGR software is designed for automated creation of package of documents required when registering juridical person (contains, but not limited private limited company / sole proprietorship) in Russia. PPDGR also can be used for creating an information container, used while sending registration documents online.
 
