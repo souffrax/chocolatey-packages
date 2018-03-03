@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.31</version>
+    <version>1.40</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/twitch-bandwidth-tester</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>galeksandrp</owners>
@@ -37,11 +37,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>Twitch Bandwidth Tester</title>
     <authors>R1CH</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>http://www.teamliquid.net/forum/tech-support/478845-twitchtest-twitch-bandwidth-tester</projectUrl>
+    <projectUrl>https://r1ch.net/projects/twitchtest</projectUrl>
     <iconUrl>https://cdn.rawgit.com/galeksandrp/chocolatey-packages/fc895c84eaf43607f89e4fa383a3ce47833b6820/icons/twitch-bandwidth-tester.png</iconUrl>
     <copyright>Copyright (c) 2015 R1CH</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
-    <licenseUrl>http://www.teamliquid.net/forum/tech-support/478845-twitchtest-twitch-bandwidth-tester#1</licenseUrl>
+    <licenseUrl>https://github.com/notr1ch/TwitchTest/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>http://www.teamliquid.net/forum/tech-support/478845-twitchtest-twitch-bandwidth-tester#1</docsUrl>
@@ -50,7 +50,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>twitch-bandwidth-tester twitch streaming gaming steam origin uplay</tags>
     <summary>I've created a program for streamers called TwitchTest that will test your upload speed to each Twitch server and report the sustained bandwidth</summary>
     <description>I've created a program for streamers called TwitchTest that will test your upload speed to each Twitch server and report the sustained bandwidth. It's important to know what kind of bandwidth you can get so you can set an appropriate bitrate on your stream to avoid dropped frames. You'll want to leave enough room for your game and other data so don't just set your bitrate to the highest number, and keep in mind Twitch's maximum recommendation of 3500kbps.</description>
-    <releaseNotes>http://www.teamliquid.net/forum/tech-support/478845-twitchtest-twitch-bandwidth-tester#1</releaseNotes>
+    <releaseNotes>https://r1ch.net/projects/twitchtest</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
