@@ -27,7 +27,7 @@ function getFilename{
             return 'Win2012.msi'
         }
     } else {
-        $bitness = Get-OSArchitectureWidth
+        $bitness = Get-ProcessorBits
         if ($bitness -eq 32) {
             $bitness = 86
         }
