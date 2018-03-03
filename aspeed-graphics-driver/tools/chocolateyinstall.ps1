@@ -28,6 +28,9 @@ function getFilename{
         }
     } else {
         $bitness = Get-OSArchitectureWidth
+        if ($bitness -eq 32) {
+            $bitness = 86
+        }
         if ($windowsVersion.CurrentMajorVersionNumber -ge 10) {
             if ($windowsVersion.ReleaseId -ge 1607) {
                 return "Win10_x$bitness(1607).msi"
