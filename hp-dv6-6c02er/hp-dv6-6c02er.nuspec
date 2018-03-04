@@ -4,9 +4,9 @@
   <metadata>
     <id>hp-dv6-6c02er</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-dv6-6c02er-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/hp-dv6-6c02er</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>HP Pavilion dv6 6c02er (Install)</title>
+    <title>HP Pavilion dv6-6c02er (Install)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,10 +22,17 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-	  <dependency id="	rutoken-drivers" />
-	  <dependency id="	rutoken-plugin" />
-	  <dependency id="	rutoken-web-plugin" />
-	  <dependency id="	rutoken-web-tool" />
+	  <dependency id="synaptics-touchpad-driver" />
+	  <dependency id="realtek-lan-driver" />
+	  <dependency id="realtek-card-reader-driver" />
+	  <dependency id="validity-fingerprint-sensor-driver" />
+	  <dependency id="hp-quick-launch-software" />
+	  <dependency id="hp-coolsense-technology" />
+	  <dependency id="hp-osd-utility" />
+	  <dependency id="hp-launch-box" />
+	  <dependency id="hp-application-assistant-software" />
+	  <dependency id="qualcomm-atheros-ar9000-series-wlan-driver" />
+      <dependency id="atheros-bluetooth-driver" />
     </dependencies>
   </metadata>
   <files>

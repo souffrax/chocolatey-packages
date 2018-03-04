@@ -4,7 +4,7 @@
   <metadata>
     <id>grub4dos</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/grub4dos-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/grub4dos</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>grub4dos (Install)</title>
     <authors>___</authors>

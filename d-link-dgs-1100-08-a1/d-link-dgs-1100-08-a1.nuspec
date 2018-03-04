@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>raspberry-pi</id>
+    <id>d-link-dgs-1100-08-a1</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/raspberry-pi-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/d-link-dgs-1100-08-a1</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>HP Pavilion dv6 6c02er (Install)</title>
+    <title>D-Link DGS-1100-08 A1 (Install)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,9 +22,7 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-      <dependency id="osmc-installer" />
-	  <dependency id="xbian-installer" />
-	  <dependency id="libreelec-usb-sd-creator" />
+      <dependency id="smart-console-utility" />
     </dependencies>
   </metadata>
   <files>

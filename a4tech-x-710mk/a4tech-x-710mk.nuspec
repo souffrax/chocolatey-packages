@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>supermicro-meta</id>
+    <id>a4tech-x-710mk</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/supermicro-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/a4tech-x-710mk</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>HP Pavilion dv6 6c02er (Install)</title>
+    <title>A4Tech X-710MK (Install)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,7 +22,8 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-	  <dependency id="	aspeed-graphics-driver" />
+      <dependency id="oscar-mouse-editor" />
+	  <dependency id="mkey" />
     </dependencies>
   </metadata>
   <files>

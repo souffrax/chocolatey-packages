@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>x7</id>
+    <id>kodi-distro</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/x7-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/kodi-distro</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>X7 (Install)</title>
+    <title>Kodi Distro (Install)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,8 +22,9 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-      <dependency id="oscar-mouse-editor" />
-	  <dependency id="mkey" />
+      <dependency id="osmc-installer" />
+	  <dependency id="xbian-installer" />
+	  <dependency id="libreelec-usb-sd-creator" />
     </dependencies>
   </metadata>
   <files>
