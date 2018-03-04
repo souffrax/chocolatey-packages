@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hp-dv6-6c02er</id>
+    <version>0.1.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-dv6-6c02er-meta</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>HP Pavilion dv6 6c02er (Install)</title>
+    <authors>___</authors>
+    <projectUrl>http://a.b</projectUrl>
+    <iconUrl>http://a.b</iconUrl>
+    <copyright>Copyright (c) 2017</copyright>
+    <licenseUrl>http://a.b</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://a.b</projectSourceUrl>
+    <docsUrl>http://a.b</docsUrl>
+    <mailingListUrl>http://a.b</mailingListUrl>
+    <bugTrackerUrl>http://a.b</bugTrackerUrl>
+    <tags>admin</tags>
+    <summary></summary>
+    <description>___</description>
+    <releaseNotes></releaseNotes>
+    <dependencies>
+	  <dependency id="		synaptics-touchpad-driver	" />
+	  <dependency id="		realtek-lan-driver" />
+	  <dependency id="		realtek-card-reader-driver" />
+	  <dependency id="		validity-fingerprint-sensor-driver" />
+	  <dependency id="	hp-quick-launch-software" />
+	  <dependency id="		hp-coolsense-technology" />
+	  <dependency id="		hp-osd-utility" />
+	  <dependency id="		hp-launch-box" />
+	  <dependency id="	hp-application-assistant-software" />
+	  <dependency id="	qualcomm-atheros-ar9000-series-wlan-driver" />
+      <dependency id="	atheros-bluetooth-driver" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
