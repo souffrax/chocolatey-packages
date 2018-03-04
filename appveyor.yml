@@ -13,6 +13,4 @@ build_script:
     }
 deploy_script:
 - ps: >-
-    if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci push]')) {
-        ls *.nupkg | % {choco push --source https://www.myget.org/F/galeksandrp/api/v2/package $_}
-    }
+    ls *.nupkg | % {choco push --source https://www.myget.org/F/galeksandrp/api/v2/package $_}
