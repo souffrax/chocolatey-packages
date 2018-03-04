@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>hp-dv6-6c02er</id>
+    <id>officegate</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/hp-dv6-6c02er-meta</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/officegate</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>HP Pavilion dv6 6c02er (Install)</title>
+    <title>OfficeGate (Install)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,8 +22,8 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-	  <dependency id="	driver-officegate" />
-	  <dependency id="	officegate-configuration-tool" />
+	  <dependency id="driver-officegate" />
+	  <dependency id="officegate-configuration-tool" />
     </dependencies>
   </metadata>
   <files>
