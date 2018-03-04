@@ -3,10 +3,10 @@ init:
     choco apikey --key $env:MYGET_API_KEY --source https://www.myget.org/F/galeksandrp/api/v2/package
 build_script:
 - ps: >-
-    if (!$env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci skiptest]')) {
-        git diff --name-only HEAD~ | % {echo $_.split('/')[0]} | sort | Get-Unique | % {
-            [xml]$nuspec = cat $_/$_.nuspec
-            choco pack $_/$_.nuspec
+    git diff --name-only HEAD~ | % {echo $_.split('/')[0]} | sort | Get-Unique | % {
+        [xml]$nuspec = cat $_/$_.nuspec
+        choco pack $_/$_.nuspec
+        if (!$env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci skiptest]')) {
             choco install $_ -s '.;https://chocolatey.org/api/v2/' --version $nuspec.package.metadata.version --pre
             choco uninstall $_
         }
