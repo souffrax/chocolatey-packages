@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kontur-certificates</id>
-    <version>4.5.25.8047</version>
+    <version>4.5.26.6345</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/kontur-certificates</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>Kontur.Certificates (Install)</title>
