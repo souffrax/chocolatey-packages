@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>intel-usb-3-0-driver</id>
+    <version>5.0.4.43</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/intel-usb-3-0-driver</packageSourceUrl>
+    <owners>galeksandrp</owners>
+    <title>Intel® USB 3.0 eXtensible Host Controller Driver for Intel® 8/9/100 Series and Intel® C220/C610 Chipset Family (Install)</title>
+    <authors>Intel Corporation</authors>
+    <projectUrl>https://downloadcenter.intel.com/download/22824/-Intel-USB-3-0-Intel-8-9-100-Series-Intel-C220-C610-Chipset-Family</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/c/c9/Intel-logo.svg</iconUrl>
+    <copyright>Copyright (c) 2018 Intel Corporation</copyright>
+    <licenseUrl>https://www.intel.com/content/www/us/en/legal/terms-of-use.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://downloadmirror.intel.com/22824/eng/Readme.txt</docsUrl>
+    <bugTrackerUrl>https://www.intel.com/content/www/us/en/support/contact-support.html</bugTrackerUrl>
+    <tags>usb driver usb30 intel chipset admin</tags>
+    <summary>Intel® USB 3.0 eXtensible Host Controller Driver contains support for compatible Intel® chipsets and Intel® processors</summary>
+    <description>Intel® USB 3.0 eXtensible Host Controller Driver contains support for the following Intel® chipsets and Intel® processors:
+
+- Intel® 8/9/100 Series and Intel® C220/C610 Chipset Family</description>
+	<releaseNotes>https://downloadmirror.intel.com/22824/eng/Intel(R)%20USB%203%200%20eXtensible%20Host%20Controller%20Driver%20-%20Release%20Notes%20r1.1.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
