@@ -1,9 +1,16 @@
 ﻿$packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  FileType               = 'exe'
-  SilentArgs             = '/s /a /s'
-  url                    = 'https://ftp.hp.com/pub/softpaq/sp54501-55000/sp54998.exe'
-  checksum               = '131639e80c26d3a5a5887016a4b160212f7f5db43e95cb98df4e556cc031bf0d'
+  url                    = 'http://12244.wpc.azureedge.net/8012244/drivers/rtdrivers/cn/nic/0022-Install_Win10_10025_02262018.zip'
+  checksum               = '908d914cecc9e4bc7335024043061fd72e77b70d64d4fa5a0b7c6ddf646f1bf4'
   checksumType           = 'sha256'
+  UnzipLocation          = "$env:TMP"
 }
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyZipPackage @packageArgs
+
+$packageArgs = @{
+  packageName            = "$env:chocolateyPackageName"
+  FileType               = 'exe'
+  SilentArgs             = '/s'
+  File                   = "$env:TMP\0022-Install_Win10_10025_02262018\Install_Win10_10025_02262018\setup.exe"
+}
+Install-ChocolateyInstallPackage @packageArgs
