@@ -26,6 +26,8 @@
 	  <dependency id="rutoken-plugin" />
 	  <dependency id="rutoken-web-plugin" />
 	  <dependency id="rutoken-web-tool" />
+	  <dependency id="rutoken-drivers-removal-tool" />
+	  <dependency id="rutoken-driver-repair-tool" />
     </dependencies>
   </metadata>
   <files>
