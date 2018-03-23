@@ -24,6 +24,8 @@
     <dependencies>
 	  <dependency id="kontur-plugin" />
 	  <dependency id="kontur-addtotrusted" />
+	  <dependency id="kontur-certificates" />
+	  <dependency id="kontur-diag" />
     </dependencies>
   </metadata>
   <files>

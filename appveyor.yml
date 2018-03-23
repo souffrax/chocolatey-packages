@@ -5,7 +5,7 @@ build_script:
 - ps: >-
     $ErrorActionPreference = 'Stop'
     
-    (git diff --name-only HEAD~) -match '/' | % {echo $_.split('/')[0]} | sort | Get-Unique | % {
+    (git diff --name-only HEAD~) -match '/' | % {echo ($_ -split '/')[0]} | sort | Get-Unique | % {
         [xml]$nuspec = cat $_/$_.nuspec
         choco pack $_/$_.nuspec
         if (!$env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci skiptest]')) {
