@@ -6,15 +6,19 @@ branches:
 image: Visual Studio 2015
 configuration: Release
 environment:
-  YANDEX_DISK_TOKEN:
-    secure: LX6gl4NMLAkkBfVRxj57OTUC2Vj1lJN4UgH6hHQ+icSpf5Saw9Gxt8XNUHmkPXfe
   PAPERTRAIL_SERVER:
     secure: wvCG4LlUnqfPVId8pv089HoZj3ywuIn52/348tuIHE8=
   PAPERTRAIL_PORT:
     secure: BByW+dd9wN7jF4BTkThXsA==
+  APPVEYOR_NUGET_NAME:
+    secure: z6aDDOkvMnTUmmqk/zsq/BvfFwTyXDG6HqvtcR2WZ/Y=
+  APPVEYOR_NUGET_PASSWORD:
+    secure: JjPWXO4X/ihcGcVfToq8/A==
+  YANDEX_DISK_TOKEN:
+    secure: LX6gl4NMLAkkBfVRxj57OTUC2Vj1lJN4UgH6hHQ+icSpf5Saw9Gxt8XNUHmkPXfe
 install:
-- ps: >-
-    choco apikey --key $env:CHOCOLATEY_API_KEY --source https://push.chocolatey.org/
+- ps: >-    
+    iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
     
     choco install -y nxlog --no-progress
     
@@ -25,21 +29,21 @@ install:
     net stop nxlog
     
     net start nxlog
-
-    if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci rdp]')) {$blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))}
+    
+    choco source add -n=appveyor -s 'https://ci.appveyor.com/nuget/galeksandrp' -u $env:APPVEYOR_NUGET_NAME -p $env:APPVEYOR_NUGET_PASSWORD
 build_script:
 - cmd: >-
     cd /d "%APPVEYOR_BUILD_FOLDER%\%APPVEYOR_REPO_BRANCH%"
-
+    
     choco pack
 test_script:
 - ps: >-
     cd "$env:APPVEYOR_BUILD_FOLDER\$env:APPVEYOR_REPO_BRANCH"
-
+    
     [xml]$nuspec = cat "$env:APPVEYOR_REPO_BRANCH.nuspec"
-
-    choco install -y $env:APPVEYOR_REPO_BRANCH -s '.;https://chocolatey.org/api/v2/' --version $nuspec.package.metadata.version --pre --no-progress | Out-File -Encoding UTF8 "$env:TMP/$env:APPVEYOR_REPO_BRANCH.log"
-
+    
+    choco install -y $env:APPVEYOR_REPO_BRANCH -s '.;https://chocolatey.org/api/v2/;https://www.myget.org/F/galeksandrp/api/v2;https://ci.appveyor.com/nuget/galeksandrp' --version $nuspec.package.metadata.version --pre --no-progress | Out-File -Encoding UTF8 "$env:TMP/$env:APPVEYOR_REPO_BRANCH.log"
+    
+    if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci rdp]')) {$blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))}
+    
     choco uninstall -y $env:APPVEYOR_REPO_BRANCH
-artifacts:
-- path: '**\*.nupkg'

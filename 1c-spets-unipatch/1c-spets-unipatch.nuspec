@@ -2,9 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>1c-spets</id>
-    <version>2018.03.21</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/1c-spets</packageSourceUrl>
+    <id>1c-spets-unipatch</id>
+    <version>8.0</version>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/1c-spets-unipatch</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>1C:Spets (Install)</title>
     <authors>___</authors>
@@ -21,6 +21,10 @@
     <summary></summary>
     <description>___</description>
     <releaseNotes></releaseNotes>
+	<dependencies>
+      <dependency id="1c-spets" />
+	  <dependency id="unipatch" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
