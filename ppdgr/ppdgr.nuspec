@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ppdgr</id>
-    <version>1.4.8</version>
+    <version>1.4.9</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/ppdgr</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>PPDGR (Install)</title>
@@ -13,7 +13,7 @@
     <copyright>Copyright (c) 2016-2018 АО "ГНИВЦ"</copyright>
     <licenseUrl>https://www.nalog.ru/rn77/copyright/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <docsUrl>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/install.doc</docsUrl>
+    <docsUrl>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.9/install.doc</docsUrl>
     <bugTrackerUrl>https://www.gnivc.ru/feedback/</bugTrackerUrl>
     <tags>admin ppdgr pfdgr government taxes ltd llc law laws</tags>
     <summary>PPDGR software is designed for automated creation of package of documents required when registering juridical person in Russia</summary>
@@ -23,7 +23,7 @@ Common details:
 
 PPDGR software replaces PFDGR software.
 </description>
-    <releaseNotes>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.8/readme.doc</releaseNotes>
+    <releaseNotes>https://www.gnivc.ru/html/gnivcsoft/ppdgr/1.4.9/readme.doc</releaseNotes>
     <dependencies>
       <dependency id="pdf417" version="3.2.4" />
     </dependencies>
