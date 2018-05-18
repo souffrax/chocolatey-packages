@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>rutoken</id>
+    <id>server-contrib</id>
     <version>0.1.0</version>
-    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/rutoken</packageSourceUrl>
+    <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/meta/server-contrib</packageSourceUrl>
     <owners>galeksandrp</owners>
-    <title>Rutoken (Install)</title>
+    <title>server (contrib)</title>
     <authors>___</authors>
     <projectUrl>http://a.b</projectUrl>
     <iconUrl>http://a.b</iconUrl>
@@ -22,10 +22,11 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-	  <dependency id="rutoken-drivers" />
-	  <dependency id="rutoken-plugin" />
-	  <dependency id="rutoken-web-plugin" />
-	  <dependency id="rutoken-web-tool" />
+	  <dependency id="cryptopro" />
+	  <dependency id="d-link-dgs-1100-08-a1" />
+	  <dependency id="litemanager" />
+	  <dependency id="atol-dto" />
+	  <dependency id="supermicro-x10slm-f-contrib" />
     </dependencies>
   </metadata>
   <files>

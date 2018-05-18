@@ -22,17 +22,18 @@
     <description>___</description>
     <releaseNotes></releaseNotes>
     <dependencies>
-	  <dependency id="cryptopro" />
-	  <dependency id="d-link-dgs-1100-08-a1" />
 	  <dependency id="intel-core-i5-4460" />
 	  <dependency id="kontur" />
-	  <dependency id="litemanager" />
 	  <dependency id="officegate" />
 	  <dependency id="radmin" />
 	  <dependency id="rutoken" />
 	  <dependency id="sprut-universal" />
 	  <dependency id="supermicro-x10slm-f" />
-	  <dependency id="smci" />
+	  <dependency id="hsm-usb-serial-driver" />
+	  <dependency id="logitech-webcam-software" />
+	  <dependency id="advanced-ip-scanner" />
+	  <dependency id="ppdgr" />
+	  <dependency id="gnokii" />
     </dependencies>
   </metadata>
   <files>

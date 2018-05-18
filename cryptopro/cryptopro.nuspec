@@ -24,9 +24,6 @@
     <dependencies>
 	  <dependency id="cryptopro-browser-plugin" />
 	  <dependency id="cryptopro-office-signature" />
-	  <dependency id="cpfixit" />
-	  <dependency id="cspclean" />
-	  <dependency id="cryptcp" />
     </dependencies>
   </metadata>
   <files>
