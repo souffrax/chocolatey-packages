@@ -15,9 +15,9 @@ $packageArgs = @{
 }
 Get-ChocolateyUnzip @packageArgs
 
-mv "$env:TMP\VirtualXPVHD" "$env:TMP\VirtualXPVHD.vhd"
+VBoxManage clonemedium --format VMDK "$env:TMP\VirtualXPVHD" "$env:TMP\VirtualXPVHD.vmdk"
 
 VBoxManage createvm --name xpm --register --ostype WindowsXP --uuid b6447b49-fe2f-4c2f-90ec-a9eb23233f94
 VBoxManage storagectl b6447b49-fe2f-4c2f-90ec-a9eb23233f94 --name IDE --add ide
-VBoxManage storageattach b6447b49-fe2f-4c2f-90ec-a9eb23233f94 --storagectl IDE --medium "$env:TMP\VirtualXPVHD.vhd" --port 0 --device 0 --type hdd
+VBoxManage storageattach b6447b49-fe2f-4c2f-90ec-a9eb23233f94 --storagectl IDE --medium "$env:TMP\VirtualXPVHD.vmdk" --port 0 --device 0 --type hdd
 VBoxManage export b6447b49-fe2f-4c2f-90ec-a9eb23233f94 --output "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\xpm.ovf"
