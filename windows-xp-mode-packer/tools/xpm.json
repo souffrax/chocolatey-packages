@@ -1,0 +1,14 @@
+{
+  "builders": [{
+  "type": "virtualbox-iso",
+  "guest_os_type": "WindowsXP",
+  "iso_url": "WindowsXP-KB968930-x86-ENG.iso",
+  "iso_checksum_type": "none",
+  "ssh_username": "packer",
+  "vboxmanage": [
+    ["storageattach", "{{.Name}}", "--storagectl", "IDE Controller", "--medium", "VirtualXPVHD", "--port", "0", "--device", "0", "--type", "hdd"]
+  ],
+  "boot_command": ["<wait20><tab><space><enter><enter>{{ .Name }}<enter><enter>",
+                   "<wait40><leftAltOn><f4><leftAltOff>"]
+}]
+}
