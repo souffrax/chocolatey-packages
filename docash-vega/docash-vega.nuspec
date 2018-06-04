@@ -23,6 +23,7 @@
     <releaseNotes></releaseNotes>
     <dependencies>
       <dependency id="docash-vega-firmware" />
+      <dependency id="docash-vega-driver" />
     </dependencies>
   </metadata>
   <files>
