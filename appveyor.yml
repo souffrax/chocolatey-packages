@@ -15,7 +15,7 @@ environment:
   APPVEYOR_NUGET_PASSWORD:
     secure: JjPWXO4X/ihcGcVfToq8/A==
   YANDEX_DISK_TOKEN:
-    secure: LX6gl4NMLAkkBfVRxj57OTUC2Vj1lJN4UgH6hHQ+icSpf5Saw9Gxt8XNUHmkPXfe
+    secure: r+PHuBnnuplMxGrJPnH6RR6zYSinNQ182qQBBtT1y3koVZ5OKPeYppOdcNYAjZIr
 install:
 - ps: >-    
     iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
