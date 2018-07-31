@@ -16,6 +16,12 @@ environment:
     secure: JjPWXO4X/ihcGcVfToq8/A==
   YANDEX_DISK_TOKEN:
     secure: r+PHuBnnuplMxGrJPnH6RR6zYSinNQ182qQBBtT1y3koVZ5OKPeYppOdcNYAjZIr
+  1C_DB:
+    secure: BM8+TFx5qjOjxxmEdBuaGg==
+  1C_NAME:
+    secure: nByMdRaUnYTMjoKh7lCwNg==
+  1C_PASSWORD:
+    secure: t+Hs34MtTBL6ObZJlH0ZjQ==
 install:
 - ps: >-    
     iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
@@ -44,6 +50,20 @@ test_script:
     
     choco install -y $env:APPVEYOR_REPO_BRANCH -s '.;https://chocolatey.org/api/v2/;https://www.myget.org/F/galeksandrp/api/v2;https://ci.appveyor.com/nuget/galeksandrp' --version $nuspec.package.metadata.version --pre --no-progress | Out-File -Encoding UTF8 "$env:TMP/$env:APPVEYOR_REPO_BRANCH.log"
     
+    & "C:\Program Files (x86)\1cv8\8.3.7.2008\bin\1cv8.exe" ENTERPRISE /IBName"$env:1C_DB" /N"$env:1C_NAME" /P"$env:1C_PASSWORD" /AppAutoCheckVersion
+    
+    sleep 20
+    
+    $bounds = [Drawing.Rectangle]::FromLTRB(0, 0, 1024, 768)
+    
+    $bmp = New-Object Drawing.Bitmap $bounds.width, $bounds.height
+    
+    $graphics = [Drawing.Graphics]::FromImage($bmp).CopyFromScreen($bounds.Location, [Drawing.Point]::Empty, $bounds.size)
+    
+    $bmp.Save("$env:APPVEYOR_BUILD_FOLDER\screenCapture.png")
+    
     if ($env:APPVEYOR_REPO_COMMIT_MESSAGE.Contains('[ci rdp]')) {$blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))}
     
     choco uninstall -y $env:APPVEYOR_REPO_BRANCH
+artifacts:
+  - path: screenCapture.png
