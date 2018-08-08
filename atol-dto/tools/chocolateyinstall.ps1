@@ -31,25 +31,25 @@ function getFoldername{
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'http://fs.atol.ru/_layouts/15/atol.templates/Handlers/FileHandler.ashx?guid=f7fe9e0a-b120-4fb4-a110-65b71d322089&webUrl='
-  checksum               = 'ff1d7a62bf4aa113cc8c9e3af8f788cfc57484ce1619e9cfb700c7a3a4de66df'
+  url                    = 'http://fs.atol.ru/_layouts/15/atol.templates/Handlers/FileHandler.ashx?guid=60f20357-ffcc-452e-bc46-a5015071d682&webUrl='
+  checksum               = 'bd2d034129c68360169648b40612cfe6b2b127883b176dbbd4c9f5b17443a38f'
   checksumType           = 'sha256'
   UnzipLocation          = "$env:TMP"
-  SpecificFolder         = '10.1.1\installer\exe'
+  SpecificFolder         = 'Драйверы_торгового_оборудования_9_12_2\installer'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $foldername = getFoldername
 
 $packageArgs = @{
-  FileFullPath           = "$env:TMP\10.1.1\installer\exe\KKT10-10.1.1.0-windows32-setup.exe"
-  FileFullPath64         = "$env:TMP\10.1.1\installer\exe\KKT10-10.1.1.0-windows64-setup.exe"
+  FileFullPath           = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
+  FileFullPath64         = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
   Destination            = "$env:TMP"
-  SpecificFolder         = "USB_Drivers\$foldername"
+  SpecificFolder         = "KKT\USB_Drivers\$foldername"
 }
 Get-ChocolateyUnzip @packageArgs
 
-(Get-AuthenticodeSignature "$env:TMP\USB_Drivers\$foldername\atol-usbcom.cat").SignerCertificate | Export-Certificate -FilePath "$env:TMP\atol-usbcom.cer"
+(Get-AuthenticodeSignature "$env:TMP\KKT\USB_Drivers\$foldername\atol-usbcom.cat").SignerCertificate | Export-Certificate -FilePath "$env:TMP\atol-usbcom.cer"
  
 Import-Certificate -FilePath "$env:TMP\atol-usbcom.cer" -CertStoreLocation Cert:\LocalMachine\TrustedPublisher
 
@@ -57,7 +57,7 @@ $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
   FileType               = 'exe'
   SilentArgs             = '/S'
-  File                   = "$env:TMP\10.1.1\installer\exe\KKT10-10.1.1.0-windows32-setup.exe"
-  File64                 = "$env:TMP\10.1.1\installer\exe\KKT10-10.1.1.0-windows64-setup.exe"
+  File                   = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
+  File64                 = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
 }
 Install-ChocolateyInstallPackage @packageArgs
