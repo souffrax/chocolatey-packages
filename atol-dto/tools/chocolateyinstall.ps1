@@ -34,16 +34,17 @@ $packageArgs = @{
   url                    = 'http://fs.atol.ru/_layouts/15/atol.templates/Handlers/FileHandler.ashx?guid=60f20357-ffcc-452e-bc46-a5015071d682&webUrl='
   checksum               = 'bd2d034129c68360169648b40612cfe6b2b127883b176dbbd4c9f5b17443a38f'
   checksumType           = 'sha256'
-  UnzipLocation          = "$env:TMP"
-  SpecificFolder         = 'Драйверы_торгового_оборудования_9_12_2\installer'
+  UnzipLocation          = "$env:TMP\$env:chocolateyPackageName"
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $foldername = getFoldername
 
+mv "$env:TMP\$env:chocolateyPackageName\*_*_*_9_12_2" "$env:TMP\9_12_2"
+
 $packageArgs = @{
-  FileFullPath           = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
-  FileFullPath64         = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
+  FileFullPath           = "$env:TMP\9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
+  FileFullPath64         = "$env:TMP\9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
   Destination            = "$env:TMP"
   SpecificFolder         = "KKT\USB_Drivers\$foldername"
 }
@@ -57,7 +58,7 @@ $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
   FileType               = 'exe'
   SilentArgs             = '/S'
-  File                   = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
-  File64                 = "$env:TMP\Драйверы_торгового_оборудования_9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
+  File                   = "$env:TMP\9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows32-setup.exe"
+  File64                 = "$env:TMP\9_12_2\installer\Drivers9-KKT-9.12.2.6311-windows64-setup.exe"
 }
 Install-ChocolateyInstallPackage @packageArgs
