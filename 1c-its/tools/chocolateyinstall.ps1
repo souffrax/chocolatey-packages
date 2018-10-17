@@ -1,188 +1,152 @@
 ﻿$packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/ClusterConsole/ClusterConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/RequestConsole/RequestConsole.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '4db0968633cf8502b69c081a07c1720f6651ced5a5c40c7cf988d24ea0c4798b'
+  checksum               = 'aa727b8dee55393e5dbf0d086684af121b995cf89b06379e3b0da0fe99258d73'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/JobsConsole/JobsConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/UpdatePrivateInformation/UpdatePrivateInformation.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '06e54f9cf6acb4012801bb790c602167fc1f945573f1c958c65c0de5a4033d4c'
+  checksum               = 'e9471b6d997d831ddf9d3ec9496ab21a08bbe037b95948a473e7f3aba4fdbc54'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/TechnologicalLogSetup/TechnologicalLogSetup.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/CodeColoring/CodeColoring.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '4643758807645d1c0ff9f142dd1bd0c6f723f94b8a8fd2b1c5bb1e1db6e5926e'
+  checksum               = '8f242b674448d8172d30d6cc3dea4a1fdab8808d332d9216702b8f16ab8024fc'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/ExternalDataProcessorConverter/ExternalDataProcessorConverter.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/UniversalSelection/UniversalSelection.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'f2e8a6835736efd4bae05516c5369b8418cecbc54fefa627cf8b5643e1442b77'
+  checksum               = 'fce359ace52815eadc30773fd0efaeed3dbd35ff0660502dbbdb583ac5a2e60a'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/CommonModulesCalls/CommonModulesCalls.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/TextFormatting/TextFormatting.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '5767dfd09da5956be14cee224b693a8854a27593189cfc1a875d3da1b5c1bfff'
+  checksum               = 'b23b391f8ba7bd56a7cb6a0001bd96dbc8dd6ff6b5ba493b0835d2dcdb58aaba'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/EnglishTermsReplacementTool/EnglishTermsReplacementTool.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/UploadUsersToXML/UploadUsersToXML.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '24e6dff80200bd53df18fa92fc28296c398bb82045d7976fa329ad8011a0e473'
+  checksum               = 'f5e1630444e8c83295867dc40464372227c86fc2399f60e3c9a143d3de49d598'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/TMSales/TMSales.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS82/UploadToRelationalStructures/UploadToRelationalStructures.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '576c54b132495ed718c5bd16cc9058c1f86a08899ad8f0e7849882994e8e636e'
+  checksum               = '5402503b104524d78aa1a9f0d24cc1348408000e6aa94e19666d49e12bad6981'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/ReportConsole/ReportConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/UploadFromTableDocument/UploadFromTableDocument.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'ebea5e1d008be46ace0cf88deada15283cc39d97bf24f9bc07b20faf6f6024ac'
+  checksum               = '467bd0ad9ee8f66c2db660df8d27068753fa14327733e6cbe7779136cc62e31c'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/DCSConsole/DCSConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/DCSConsole/DCSConsole.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '4a4145d5416cbff85c2e87fbd6965c3647583cf008f5610316444fd4d0664d55'
+  checksum               = '6f9ae3f06724e8f8dec27c054d5b077d9a24712675604137974952812d63b896'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/FullTextSearch/FullTextSearch.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/RequestConsoleManaged/RequestConsoleManaged.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '583e0d618217118a41aa30c257ded0f729a74389de7ac87392a119d33ef2d6cf'
+  checksum               = '43e5c749df71e1dbe41645ac16e25a7e610cf5ab20fc3868519ca4d723f63b5f'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/EventLogConsole/EventLogConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/ExternalDataProcessorConverter/ExternalDataProcessorConverter.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '819904c9461be40adb7f152d5a6fea68a35f7af20059b366fab5b330043e769e'
+  checksum               = '3c9882a2b4e3ed1419e00a66b2fb6e3d353eab166c57bfa1b344707f84014b1f'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/BaseTrimming/BaseTrimming.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS82/JobsConsole/JobsConsole.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'e773182c184d981c0b503690338eb0da6e9d227da58d53095bd1412880bb18a3'
+  checksum               = 'c34519e64cf53aa19b1ea8c661c8d170fddc29cc9ac1cabd83b330c04ea9771e'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS81/UploadToRelationalStructures/UploadToRelationalStructures.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS82/TechnologicalLogSetup/TechnologicalLogSetup.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '30424caec854b0fc61b6cdbaddad8b2ef7b17bdc7bde7fdc99f08c6cf5f17550'
+  checksum               = '4d890efab2b2cf8dd7a091fa3db2d55b59e448ca96037ad9aa80e470c216f466'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/UploadFromTableDocument/UploadFromTableDocument.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/SearchAndChange/SearchAndChange.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '824d7c734b5606213359b8770b208024f09323017338070db4bd760a1b843f9b'
+  checksum               = '5bcca5d63d0dfb64d50b3fef0fa5e980442a1e1a30e04efc38aac79f633f7c2a'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/UpdatePrivateInformation/UpdatePrivateInformation.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS82/FullTextSearch/FullTextSearch.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '9e0e7bfd8507b8743b8e5dab5e5b73012367edbbe0e31c29038e77ae57bdbfcc'
+  checksum               = 'c6c6722561253225870f68f5ee682d41679f5bff7de17b67475abe4a6abdad97'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/RequestConsole/RequestConsole.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps82/RegistrationChangeForDataExchangeManaged/RegistrationChangeForDataExchangeManaged.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '3ddbe4f3a16067319f0d51facad1981d1ead921bcfb8919b969904585855f167'
+  checksum               = '18e9ee2d680ef6755d915d37a7a9f5fb03b636790b18d53e6ba473c19a375516'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/SearchAndChange/SearchAndChange.zip'
+  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/EXTREPS/UNIREPS82/BaseTrimming/BaseTrimming.zip'
   UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'fc3bb0f683d46e9538693571d14b15fa4c1b371a89ed99370a768ac2d4879a50'
-  checksumType           = 'sha256'
-}
-Install-ChocolateyZipPackage @packageArgs
-
-$packageArgs = @{
-  packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/CodeColoring/CodeColoring.zip'
-  UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '695ae3a40aaa49a360f8bc2dd5611c4c1a0d285369b9559acc87e3a04027eed7'
-  checksumType           = 'sha256'
-}
-Install-ChocolateyZipPackage @packageArgs
-
-$packageArgs = @{
-  packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/DeleteMarkedObjects/DeleteMarkedObjects.zip'
-  UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'ae406c9e2be41058dd973a47a7eb48b4521ee66672861588d5ddbd4cc7b6621f'
-  checksumType           = 'sha256'
-}
-Install-ChocolateyZipPackage @packageArgs
-
-$packageArgs = @{
-  packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/UniversalSelection/UniversalSelection.zip'
-  UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = '2baa0d119c9460c3c92b5f90791ffefa06344319f9b359178335dda1f7e0784f'
-  checksumType           = 'sha256'
-}
-Install-ChocolateyZipPackage @packageArgs
-
-$packageArgs = @{
-  packageName            = "$env:chocolateyPackageName"
-  url                    = 'https://its.1c.ru/db/files/1CITS/EXE/ExtReps/Unireps81/TextFormatting/TextFormatting.zip'
-  UnzipLocation          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-  checksum               = 'c836c23f1f409e8c13210bbcf969ae66b7d81f1f50d80a5dcdc3a3fe29230ddb'
+  checksum               = 'a714f780200a5627836023ee016c2c287ab0f0cb26c1be625cd7cc2d5c21f0b2'
   checksumType           = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
