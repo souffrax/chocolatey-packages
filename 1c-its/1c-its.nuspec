@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>1c-its</id>
-    <version>8.2</version>
+    <version>8.3</version>
     <packageSourceUrl>https://github.com/galeksandrp/chocolatey-packages/tree/1c-its</packageSourceUrl>
     <owners>galeksandrp</owners>
     <title>1C:ITS</title>
@@ -21,41 +21,33 @@
 
 Native name | International (file) name
 --- | ---
-[Консоль запросов][RequestConsole] | RequestConsole
-[Изменение конфиденциальной информации][UpdatePrivateInformation] | UpdatePrivateInformation
-[Раскрашивание кода][CodeColoring] | CodeColoring
-[Универсальные подбор и обработка объектов][UniversalSelection] | UniversalSelection
-[Форматирование текста][TextFormatting] | TextFormatting
 [Выгрузка и загрузка пользователей][UploadUsersToXML] | UploadUsersToXML
-[Выгрузка данных в реляционные структуры][UploadToRelationalStructures] | UploadToRelationalStructures
-[Загрузка данных из табличного документа][UploadFromTableDocument] | UploadFromTableDocument
+[Выгрузка и загрузка данных XML][UploadToXML] | UploadToXML
+[Удаление настроек по умолчанию стандартных реквизитов и стандартных табличных частей из файлов XML выгрузки конфигурации][RemoveDefaultStandardAttributes] | RemoveDefaultStandardAttributes
 [Консоль системы компоновки данных (управляемое приложение)][DCSConsole] | DCSConsole
 [Консоль запросов для управляемого приложения][RequestConsoleManaged] | RequestConsoleManaged
-[Конвертация внешних обработок версии 8.1 в 8.2.][ExternalDataProcessorConverter] | ExternalDataProcessorConverter
-[Консоль заданий][JobsConsole] | JobsConsole
+[Выполнение регламентных заданий на клиенте][ExecuteScheduledJobsOnClient] | ExecuteScheduledJobsOnClient
+[Групповое изменение объектов][BatchObjectsChange] | BatchObjectsChange
 [Настройка технологического журнала][TechnologicalLogSetup] | TechnologicalLogSetup
-[Поиск и замена значений][SearchAndChange] | SearchAndChange
 [Полнотекстовый поиск в данных][FullTextSearch] | FullTextSearch
+[Преобразование журнала действий пользователя][UILogToScript] | UILogToScript
 [Регистрация изменений для обмена][RegistrationChangeForDataExchangeManaged] | RegistrationChangeForDataExchangeManaged
-[Свертка информационной базы][BaseTrimming] | BaseTrimming
+[Скрытие конфиденциальной информации][ChangePrivateInformation] | ChangePrivateInformation
+[Просмотр технологического журнала][TechnologicalLogView] | TechnologicalLogView
 
-[RequestConsole]: https://its.1c.ru/db/metod8dev/content/3682/hdoc
-[UpdatePrivateInformation]: https://its.1c.ru/db/metod8dev/content/3681/hdoc
-[CodeColoring]: https://its.1c.ru/db/metod8dev/content/3684/hdoc
-[UniversalSelection]: https://its.1c.ru/db/metod8dev/content/3686/hdoc
-[TextFormatting]: https://its.1c.ru/db/metod8dev/content/3687/hdoc
 [UploadUsersToXML]: https://its.1c.ru/db/metod8dev/content/3968/hdoc
-[UploadToRelationalStructures]: https://its.1c.ru/db/metod8dev/content/3678/hdoc
-[UploadFromTableDocument]: https://its.1c.ru/db/metod8dev/content/3679/hdoc
+[UploadToXML]: https://its.1c.ru/db/metod8dev/content/4126/hdoc
+[RemoveDefaultStandardAttributes]: https://its.1c.ru/db/metod8dev/content/5711/hdoc
 [DCSConsole]: https://its.1c.ru/db/metod8dev/content/3401/hdoc
 [RequestConsoleManaged]: https://its.1c.ru/db/metod8dev/content/4500/hdoc
-[ExternalDataProcessorConverter]: https://its.1c.ru/db/metod8dev/content/3440/hdoc
-[JobsConsole]: https://its.1c.ru/db/metod8dev/content/3752/hdoc
+[ExecuteScheduledJobsOnClient]: https://its.1c.ru/db/metod8dev/content/5918/hdoc
+[BatchObjectsChange]: https://its.1c.ru/db/metod8dev/content/5443/hdoc
 [TechnologicalLogSetup]: https://its.1c.ru/db/metod8dev/content/3474/hdoc
-[SearchAndChange]: https://its.1c.ru/db/metod8dev/content/3683/hdoc
 [FullTextSearch]: https://its.1c.ru/db/metod8dev/content/3700/hdoc
+[UILogToScript]: https://its.1c.ru/db/metod8dev/content/5014/hdoc
 [RegistrationChangeForDataExchangeManaged]: https://its.1c.ru/db/metod8dev/content/5013/hdoc
-[BaseTrimming]: https://its.1c.ru/db/metod8dev/content/3685/hdoc
+[ChangePrivateInformation]: https://its.1c.ru/db/metod8dev/content/5863/hdoc
+[TechnologicalLogView]: https://its.1c.ru/db/metod8dev/content/5896/hdoc
 </description>
   </metadata>
   <files>
